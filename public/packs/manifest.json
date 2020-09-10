@@ -1,7 +1,23 @@
 {
+  "actions/index.js": "/packs/js/actions/index-3d6eed3f4dd02e892985.js",
+  "actions/index.js.map": "/packs/js/actions/index-3d6eed3f4dd02e892985.js.map",
   "application.js": "/packs/js/application-78130a8a56d04e13865e.js",
   "application.js.map": "/packs/js/application-78130a8a56d04e13865e.js.map",
+  "components/App.js": "/packs/js/components/App-16e653cbac3970b6d06a.js",
+  "components/App.js.map": "/packs/js/components/App-16e653cbac3970b6d06a.js.map",
+  "components/BooksForm.js": "/packs/js/components/BooksForm-b578d582c7ea1824d953.js",
+  "components/BooksForm.js.map": "/packs/js/components/BooksForm-b578d582c7ea1824d953.js.map",
+  "components/BooksList.js": "/packs/js/components/BooksList-92c150e8d95607fddb53.js",
+  "components/BooksList.js.map": "/packs/js/components/BooksList-92c150e8d95607fddb53.js.map",
   "entrypoints": {
+    "actions/index": {
+      "js": [
+        "/packs/js/actions/index-3d6eed3f4dd02e892985.js"
+      ],
+      "js.map": [
+        "/packs/js/actions/index-3d6eed3f4dd02e892985.js.map"
+      ]
+    },
     "application": {
       "js": [
         "/packs/js/application-78130a8a56d04e13865e.js"
@@ -10,15 +26,59 @@
         "/packs/js/application-78130a8a56d04e13865e.js.map"
       ]
     },
-    "hello_react": {
+    "components/App": {
       "js": [
-        "/packs/js/hello_react-4d38192115b221d1ee24.js"
+        "/packs/js/components/App-16e653cbac3970b6d06a.js"
       ],
       "js.map": [
-        "/packs/js/hello_react-4d38192115b221d1ee24.js.map"
+        "/packs/js/components/App-16e653cbac3970b6d06a.js.map"
+      ]
+    },
+    "components/BooksForm": {
+      "js": [
+        "/packs/js/components/BooksForm-b578d582c7ea1824d953.js"
+      ],
+      "js.map": [
+        "/packs/js/components/BooksForm-b578d582c7ea1824d953.js.map"
+      ]
+    },
+    "components/BooksList": {
+      "js": [
+        "/packs/js/components/BooksList-92c150e8d95607fddb53.js"
+      ],
+      "js.map": [
+        "/packs/js/components/BooksList-92c150e8d95607fddb53.js.map"
+      ]
+    },
+    "index": {
+      "js": [
+        "/packs/js/index-76eda28c2b778bf5e9b0.js"
+      ],
+      "js.map": [
+        "/packs/js/index-76eda28c2b778bf5e9b0.js.map"
+      ]
+    },
+    "reducers/books": {
+      "js": [
+        "/packs/js/reducers/books-05162f4c752762f1d56c.js"
+      ],
+      "js.map": [
+        "/packs/js/reducers/books-05162f4c752762f1d56c.js.map"
+      ]
+    },
+    "reducers/index": {
+      "js": [
+        "/packs/js/reducers/index-a85f2ce2d4c124eb5e83.js"
+      ],
+      "js.map": [
+        "/packs/js/reducers/index-a85f2ce2d4c124eb5e83.js.map"
       ]
     }
   },
-  "hello_react.js": "/packs/js/hello_react-4d38192115b221d1ee24.js",
-  "hello_react.js.map": "/packs/js/hello_react-4d38192115b221d1ee24.js.map"
+  "index.js": "/packs/js/index-76eda28c2b778bf5e9b0.js",
+  "index.js.map": "/packs/js/index-76eda28c2b778bf5e9b0.js.map",
+  "reducers/books.js": "/packs/js/reducers/books-05162f4c752762f1d56c.js",
+  "reducers/books.js.map": "/packs/js/reducers/books-05162f4c752762f1d56c.js.map",
+  "reducers/index.js": "/packs/js/reducers/index-a85f2ce2d4c124eb5e83.js",
+  "reducers/index.js.map": "/packs/js/reducers/index-a85f2ce2d4c124eb5e83.js.map"
 }
