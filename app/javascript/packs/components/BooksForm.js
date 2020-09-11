@@ -8,10 +8,18 @@ const BooksForm = () => {
     category: 'Action',
   };
 
+  const handleInputChange = event => {
+    state.title = event.target.value;
+  };
+
+  const handleSelectChange = event => {
+    state.category = event.target.value;
+  };
+
   return (
-    <>
-      <input />
-      <select>
+    <form>
+      <input onChange={handleInputChange} />
+      <select onChange={handleSelectChange}>
         {categories.map((category, index) => (
           // eslint-disable-next-line react/no-array-index-key
           <option key={index} value={category} id="category">
@@ -20,7 +28,7 @@ const BooksForm = () => {
         ))}
       </select>
       <button type="button">Add Book</button>
-    </>
+    </form>
   );
 };
 
