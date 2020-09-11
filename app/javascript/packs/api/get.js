@@ -1,6 +1,4 @@
-import { BASE_URL } from '../constants';
-
-const get = () => fetch(BASE_URL)
+const get = () => fetch('/books')
   .then(
     response => response.json(),
   );

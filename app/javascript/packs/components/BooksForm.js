@@ -1,10 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import create from '../actions/create';
+import { createWithAPI } from '../actions/index';
 
 const mapDispatchToProps = dispatch => ({
-  createBook: book => dispatch(create(book)),
+  createBook: book => dispatch(createWithAPI(book)),
 });
 
 const BooksForm = props => {

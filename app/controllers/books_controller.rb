@@ -1,3 +1,4 @@
+require 'byebug'
 class BooksController < ApplicationController
   protect_from_forgery with: :null_session
   before_action :set_book, only: [:destroy]

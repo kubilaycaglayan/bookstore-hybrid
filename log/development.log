@@ -5411,3 +5411,965 @@ Processing by BooksController#index as */*
 Completed 200 OK in 3028ms (Views: 22.8ms | ActiveRecord: 2.0ms | Allocations: 6395)
 
 
+Started GET "/" for ::1 at 2020-09-11 16:24:44 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 6061)
+
+
+Started GET "/books" for ::1 at 2020-09-11 16:24:44 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.3ms | Allocations: 120)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 9.0ms | Allocations: 4385)
+Completed 200 OK in 12ms (Views: 8.4ms | ActiveRecord: 1.2ms | Allocations: 5387)
+
+
+Started GET "/" for ::1 at 2020-09-11 16:38:25 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/kubilay/Documents/Microverse Projects/5-react/bookstore-hybrid/bookstore/public/packs
+[Webpacker] Hash: 8eef5c91628eac39894b
+Version: webpack 4.44.1
+Time: 1415ms
+Built at: 09/11/2020 4:38:27 PM
+                                                   Asset      Size                     Chunks                         Chunk Names
+       js/actions/changeCategory-3365b371ae05d5a895af.js  5.63 KiB     actions/changeCategory  [emitted] [immutable]  actions/changeCategory
+   js/actions/changeCategory-3365b371ae05d5a895af.js.map  4.18 KiB     actions/changeCategory  [emitted] [dev]        actions/changeCategory
+               js/actions/create-7f7c34b566fa234d6ad0.js  5.55 KiB             actions/create  [emitted] [immutable]  actions/create
+           js/actions/create-7f7c34b566fa234d6ad0.js.map  4.12 KiB             actions/create  [emitted] [dev]        actions/create
+        js/actions/createWithAPI-d42410c813676e34dda8.js  37.4 KiB      actions/createWithAPI  [emitted] [immutable]  actions/createWithAPI
+    js/actions/createWithAPI-d42410c813676e34dda8.js.map  34.4 KiB      actions/createWithAPI  [emitted] [dev]        actions/createWithAPI
+             js/actions/getBooks-fe856eb8cececce3592e.js  34.7 KiB           actions/getBooks  [emitted] [immutable]  actions/getBooks
+         js/actions/getBooks-fe856eb8cececce3592e.js.map    34 KiB           actions/getBooks  [emitted] [dev]        actions/getBooks
+                js/actions/index-280d197bb1345aa515ef.js  41.6 KiB              actions/index  [emitted] [immutable]  actions/index
+            js/actions/index-280d197bb1345aa515ef.js.map  35.7 KiB              actions/index  [emitted] [dev]        actions/index
+               js/actions/remove-08ee6aeed7937aed1c66.js  5.55 KiB             actions/remove  [emitted] [immutable]  actions/remove
+           js/actions/remove-08ee6aeed7937aed1c66.js.map  4.12 KiB             actions/remove  [emitted] [dev]        actions/remove
+                   js/api/delete-cb3fb8ad22690b3ea361.js  3.89 KiB                 api/delete  [emitted] [immutable]  api/delete
+               js/api/delete-cb3fb8ad22690b3ea361.js.map  3.52 KiB                 api/delete  [emitted] [dev]        api/delete
+                      js/api/get-a1b8a3831ad12d11f277.js  5.53 KiB                    api/get  [emitted] [immutable]  api/get
+                  js/api/get-a1b8a3831ad12d11f277.js.map  4.11 KiB                    api/get  [emitted] [dev]        api/get
+                    js/api/index-2245203c3054d2bfd873.js  7.22 KiB                  api/index  [emitted] [immutable]  api/index
+                js/api/index-2245203c3054d2bfd873.js.map  4.68 KiB                  api/index  [emitted] [dev]        api/index
+                     js/api/post-e4bff806731a347084c8.js  5.59 KiB                   api/post  [emitted] [immutable]  api/post
+                 js/api/post-e4bff806731a347084c8.js.map  4.24 KiB                   api/post  [emitted] [dev]        api/post
+                  js/application-78130a8a56d04e13865e.js   124 KiB                application  [emitted] [immutable]  application
+              js/application-78130a8a56d04e13865e.js.map   139 KiB                application  [emitted] [dev]        application
+               js/components/App-daebbdf61839cc1f5fe3.js  1.21 MiB             components/App  [emitted] [immutable]  components/App
+           js/components/App-daebbdf61839cc1f5fe3.js.map  1.34 MiB             components/App  [emitted] [dev]        components/App
+              js/components/Book-ec8881ec7bc4e7cfb825.js   112 KiB            components/Book  [emitted] [immutable]  components/Book
+          js/components/Book-ec8881ec7bc4e7cfb825.js.map   125 KiB            components/Book  [emitted] [dev]        components/Book
+         js/components/BooksForm-8067b3a686df34bc3893.js   1.2 MiB       components/BooksForm  [emitted] [immutable]  components/BooksForm
+     js/components/BooksForm-8067b3a686df34bc3893.js.map  1.34 MiB       components/BooksForm  [emitted] [dev]        components/BooksForm
+         js/components/BooksList-0b3929697bb25a5cc1dd.js  1.17 MiB       components/BooksList  [emitted] [immutable]  components/BooksList
+     js/components/BooksList-0b3929697bb25a5cc1dd.js.map  1.31 MiB       components/BooksList  [emitted] [dev]        components/BooksList
+    js/components/CategoryFilter-f4375b04608e3325a252.js   1.2 MiB  components/CategoryFilter  [emitted] [immutable]  components/CategoryFilter
+js/components/CategoryFilter-f4375b04608e3325a252.js.map  1.34 MiB  components/CategoryFilter  [emitted] [dev]        components/CategoryFilter
+                    js/constants-03988ca7109fbda93bcc.js  4.82 KiB                  constants  [emitted] [immutable]  constants
+                js/constants-03988ca7109fbda93bcc.js.map  3.85 KiB                  constants  [emitted] [dev]        constants
+                        js/index-e0c991ef7f26e7f59438.js  1.22 MiB                      index  [emitted] [immutable]  index
+                    js/index-e0c991ef7f26e7f59438.js.map  1.35 MiB                      index  [emitted] [dev]        index
+               js/reducers/books-cb75066420e34775ab4b.js  7.18 KiB             reducers/books  [emitted] [immutable]  reducers/books
+           js/reducers/books-cb75066420e34775ab4b.js.map  4.49 KiB             reducers/books  [emitted] [dev]        reducers/books
+            js/reducers/category-43f5cf9d3734f33414b2.js  5.78 KiB          reducers/category  [emitted] [immutable]  reducers/category
+        js/reducers/category-43f5cf9d3734f33414b2.js.map  4.27 KiB          reducers/category  [emitted] [dev]        reducers/category
+               js/reducers/index-5ee8e28d7ab54cb8a6dd.js  38.5 KiB             reducers/index  [emitted] [immutable]  reducers/index
+           js/reducers/index-5ee8e28d7ab54cb8a6dd.js.map  36.3 KiB             reducers/index  [emitted] [dev]        reducers/index
+                                           manifest.json  7.43 KiB                             [emitted]              
+Entrypoint actions/changeCategory = js/actions/changeCategory-3365b371ae05d5a895af.js js/actions/changeCategory-3365b371ae05d5a895af.js.map
+Entrypoint actions/create = js/actions/create-7f7c34b566fa234d6ad0.js js/actions/create-7f7c34b566fa234d6ad0.js.map
+Entrypoint actions/createWithAPI = js/actions/createWithAPI-d42410c813676e34dda8.js js/actions/createWithAPI-d42410c813676e34dda8.js.map
+Entrypoint actions/getBooks = js/actions/getBooks-fe856eb8cececce3592e.js js/actions/getBooks-fe856eb8cececce3592e.js.map
+Entrypoint actions/index = js/actions/index-280d197bb1345aa515ef.js js/actions/index-280d197bb1345aa515ef.js.map
+Entrypoint actions/remove = js/actions/remove-08ee6aeed7937aed1c66.js js/actions/remove-08ee6aeed7937aed1c66.js.map
+Entrypoint api/delete = js/api/delete-cb3fb8ad22690b3ea361.js js/api/delete-cb3fb8ad22690b3ea361.js.map
+Entrypoint api/get = js/api/get-a1b8a3831ad12d11f277.js js/api/get-a1b8a3831ad12d11f277.js.map
+Entrypoint api/index = js/api/index-2245203c3054d2bfd873.js js/api/index-2245203c3054d2bfd873.js.map
+Entrypoint api/post = js/api/post-e4bff806731a347084c8.js js/api/post-e4bff806731a347084c8.js.map
+Entrypoint application = js/application-78130a8a56d04e13865e.js js/application-78130a8a56d04e13865e.js.map
+Entrypoint components/App = js/components/App-daebbdf61839cc1f5fe3.js js/components/App-daebbdf61839cc1f5fe3.js.map
+Entrypoint components/Book = js/components/Book-ec8881ec7bc4e7cfb825.js js/components/Book-ec8881ec7bc4e7cfb825.js.map
+Entrypoint components/BooksForm = js/components/BooksForm-8067b3a686df34bc3893.js js/components/BooksForm-8067b3a686df34bc3893.js.map
+Entrypoint components/BooksList = js/components/BooksList-0b3929697bb25a5cc1dd.js js/components/BooksList-0b3929697bb25a5cc1dd.js.map
+Entrypoint components/CategoryFilter = js/components/CategoryFilter-f4375b04608e3325a252.js js/components/CategoryFilter-f4375b04608e3325a252.js.map
+Entrypoint constants = js/constants-03988ca7109fbda93bcc.js js/constants-03988ca7109fbda93bcc.js.map
+Entrypoint index = js/index-e0c991ef7f26e7f59438.js js/index-e0c991ef7f26e7f59438.js.map
+Entrypoint reducers/books = js/reducers/books-cb75066420e34775ab4b.js js/reducers/books-cb75066420e34775ab4b.js.map
+Entrypoint reducers/category = js/reducers/category-43f5cf9d3734f33414b2.js js/reducers/category-43f5cf9d3734f33414b2.js.map
+Entrypoint reducers/index = js/reducers/index-5ee8e28d7ab54cb8a6dd.js js/reducers/index-5ee8e28d7ab54cb8a6dd.js.map
+[./app/javascript/packs/actions/changeCategory.js] 206 bytes {actions/changeCategory} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/create.js] 162 bytes {actions/create} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/createWithAPI.js] 1.48 KiB {actions/createWithAPI} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/getBooks.js] 1.58 KiB {actions/getBooks} {actions/createWithAPI} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/index.js] 263 bytes {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/remove.js] 162 bytes {actions/remove} {actions/index} {components/App} {components/BooksForm} {components/BooksList} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/delete.js] 0 bytes {api/delete} [built]
+[./app/javascript/packs/api/get.js] 178 bytes {api/get} {actions/createWithAPI} {actions/getBooks} {actions/index} {api/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/index.js] 81 bytes {api/index} {actions/createWithAPI} {actions/getBooks} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/post.js] 234 bytes {api/post} {actions/createWithAPI} {actions/getBooks} {actions/index} {api/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/constants.js] 216 bytes {constants} {actions/changeCategory} {actions/create} {actions/createWithAPI} {actions/getBooks} {actions/index} {actions/remove} {api/get} {api/index} {api/post} {components/App} {components/BooksForm} {components/BooksList} {components/CategoryFilter} {index} {reducers/books} {reducers/category} {reducers/index} [built]
+[./app/javascript/packs/index.js] 1.49 KiB {index} [built]
+[./app/javascript/packs/reducers/books.js] 1.73 KiB {reducers/books} {index} {reducers/index} [built]
+[./app/javascript/packs/reducers/category.js] 384 bytes {reducers/category} {index} {reducers/index} [built]
+    + 61 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2286ms (Views: 2285.5ms | ActiveRecord: 0.0ms | Allocations: 7479)
+
+
+Started GET "/books" for ::1 at 2020-09-11 16:38:27 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.3ms | Allocations: 111)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 1.7ms | Allocations: 1511)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 1993)
+
+
+Started POST "/books" for ::1 at 2020-09-11 16:38:39 +0300
+Processing by BooksController#create as */*
+Can't verify CSRF token authenticity.
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 641)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:37:in `book_params'
+app/controllers/books_controller.rb:14:in `create'
+Started GET "/books" for ::1 at 2020-09-11 16:38:39 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.4ms | Allocations: 111)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 2.7ms | Allocations: 1492)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.1ms | Allocations: 1976)
+
+
+Started POST "/books/" for ::1 at 2020-09-11 16:47:33 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by BooksController#create as */*
+  Parameters: {"title"=>"Crime and Punishment", "category"=>"History", "book"=>{"title"=>"Crime and Punishment", "category"=>"History"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:16:in `create'
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Crime and Punishment"], ["category", "History"], ["created_at", "2020-09-11 13:47:33.075177"], ["updated_at", "2020-09-11 13:47:33.075177"]]
+  ↳ app/controllers/books_controller.rb:16:in `create'
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:16:in `create'
+  Rendering books/show.json.jbuilder
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 74)
+  Rendered books/show.json.jbuilder (Duration: 0.5ms | Allocations: 246)
+Completed 201 Created in 17ms (Views: 1.7ms | ActiveRecord: 7.3ms | Allocations: 4110)
+
+
+Started GET "/" for ::1 at 2020-09-11 16:50:51 +0300
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/kubilay/Documents/Microverse Projects/5-react/bookstore-hybrid/bookstore/public/packs
+[Webpacker] Hash: 6508e3db47f56ba3978b
+Version: webpack 4.44.1
+Time: 1420ms
+Built at: 09/11/2020 4:50:54 PM
+                                                   Asset      Size                     Chunks                         Chunk Names
+       js/actions/changeCategory-3365b371ae05d5a895af.js  5.63 KiB     actions/changeCategory  [emitted] [immutable]  actions/changeCategory
+   js/actions/changeCategory-3365b371ae05d5a895af.js.map  4.18 KiB     actions/changeCategory  [emitted] [dev]        actions/changeCategory
+               js/actions/create-7f7c34b566fa234d6ad0.js  5.55 KiB             actions/create  [emitted] [immutable]  actions/create
+           js/actions/create-7f7c34b566fa234d6ad0.js.map  4.12 KiB             actions/create  [emitted] [dev]        actions/create
+        js/actions/createWithAPI-c640fe6d08ff43008721.js  37.3 KiB      actions/createWithAPI  [emitted] [immutable]  actions/createWithAPI
+    js/actions/createWithAPI-c640fe6d08ff43008721.js.map  34.4 KiB      actions/createWithAPI  [emitted] [dev]        actions/createWithAPI
+             js/actions/getBooks-7582f6b647b589cdc0e0.js  34.7 KiB           actions/getBooks  [emitted] [immutable]  actions/getBooks
+         js/actions/getBooks-7582f6b647b589cdc0e0.js.map    34 KiB           actions/getBooks  [emitted] [dev]        actions/getBooks
+                js/actions/index-02968e3b6db4ae6ef256.js  41.5 KiB              actions/index  [emitted] [immutable]  actions/index
+            js/actions/index-02968e3b6db4ae6ef256.js.map  35.7 KiB              actions/index  [emitted] [dev]        actions/index
+               js/actions/remove-08ee6aeed7937aed1c66.js  5.55 KiB             actions/remove  [emitted] [immutable]  actions/remove
+           js/actions/remove-08ee6aeed7937aed1c66.js.map  4.12 KiB             actions/remove  [emitted] [dev]        actions/remove
+                   js/api/delete-cb3fb8ad22690b3ea361.js  3.89 KiB                 api/delete  [emitted] [immutable]  api/delete
+               js/api/delete-cb3fb8ad22690b3ea361.js.map  3.52 KiB                 api/delete  [emitted] [dev]        api/delete
+                      js/api/get-6702591b3f087a7ed488.js  5.48 KiB                    api/get  [emitted] [immutable]  api/get
+                  js/api/get-6702591b3f087a7ed488.js.map  4.11 KiB                    api/get  [emitted] [dev]        api/get
+                    js/api/index-5af6879fc440375830ea.js  7.17 KiB                  api/index  [emitted] [immutable]  api/index
+                js/api/index-5af6879fc440375830ea.js.map  4.68 KiB                  api/index  [emitted] [dev]        api/index
+                     js/api/post-e4bff806731a347084c8.js  5.59 KiB                   api/post  [emitted] [immutable]  api/post
+                 js/api/post-e4bff806731a347084c8.js.map  4.24 KiB                   api/post  [emitted] [dev]        api/post
+                  js/application-78130a8a56d04e13865e.js   124 KiB                application  [emitted] [immutable]  application
+              js/application-78130a8a56d04e13865e.js.map   139 KiB                application  [emitted] [dev]        application
+               js/components/App-10f5adab61de5f9a8e1a.js  1.21 MiB             components/App  [emitted] [immutable]  components/App
+           js/components/App-10f5adab61de5f9a8e1a.js.map  1.34 MiB             components/App  [emitted] [dev]        components/App
+              js/components/Book-ec8881ec7bc4e7cfb825.js   112 KiB            components/Book  [emitted] [immutable]  components/Book
+          js/components/Book-ec8881ec7bc4e7cfb825.js.map   125 KiB            components/Book  [emitted] [dev]        components/Book
+         js/components/BooksForm-97c7593839096b1fb395.js   1.2 MiB       components/BooksForm  [emitted] [immutable]  components/BooksForm
+     js/components/BooksForm-97c7593839096b1fb395.js.map  1.34 MiB       components/BooksForm  [emitted] [dev]        components/BooksForm
+         js/components/BooksList-0b3929697bb25a5cc1dd.js  1.17 MiB       components/BooksList  [emitted] [immutable]  components/BooksList
+     js/components/BooksList-0b3929697bb25a5cc1dd.js.map  1.31 MiB       components/BooksList  [emitted] [dev]        components/BooksList
+    js/components/CategoryFilter-af6299de2ce5f8dfa2b8.js   1.2 MiB  components/CategoryFilter  [emitted] [immutable]  components/CategoryFilter
+js/components/CategoryFilter-af6299de2ce5f8dfa2b8.js.map  1.34 MiB  components/CategoryFilter  [emitted] [dev]        components/CategoryFilter
+                    js/constants-03988ca7109fbda93bcc.js  4.82 KiB                  constants  [emitted] [immutable]  constants
+                js/constants-03988ca7109fbda93bcc.js.map  3.85 KiB                  constants  [emitted] [dev]        constants
+                        js/index-b8a7c0ef437dec992b98.js  1.22 MiB                      index  [emitted] [immutable]  index
+                    js/index-b8a7c0ef437dec992b98.js.map  1.35 MiB                      index  [emitted] [dev]        index
+               js/reducers/books-cb75066420e34775ab4b.js  7.18 KiB             reducers/books  [emitted] [immutable]  reducers/books
+           js/reducers/books-cb75066420e34775ab4b.js.map  4.49 KiB             reducers/books  [emitted] [dev]        reducers/books
+            js/reducers/category-43f5cf9d3734f33414b2.js  5.78 KiB          reducers/category  [emitted] [immutable]  reducers/category
+        js/reducers/category-43f5cf9d3734f33414b2.js.map  4.27 KiB          reducers/category  [emitted] [dev]        reducers/category
+               js/reducers/index-5ee8e28d7ab54cb8a6dd.js  38.5 KiB             reducers/index  [emitted] [immutable]  reducers/index
+           js/reducers/index-5ee8e28d7ab54cb8a6dd.js.map  36.3 KiB             reducers/index  [emitted] [dev]        reducers/index
+                                           manifest.json  7.43 KiB                             [emitted]              
+Entrypoint actions/changeCategory = js/actions/changeCategory-3365b371ae05d5a895af.js js/actions/changeCategory-3365b371ae05d5a895af.js.map
+Entrypoint actions/create = js/actions/create-7f7c34b566fa234d6ad0.js js/actions/create-7f7c34b566fa234d6ad0.js.map
+Entrypoint actions/createWithAPI = js/actions/createWithAPI-c640fe6d08ff43008721.js js/actions/createWithAPI-c640fe6d08ff43008721.js.map
+Entrypoint actions/getBooks = js/actions/getBooks-7582f6b647b589cdc0e0.js js/actions/getBooks-7582f6b647b589cdc0e0.js.map
+Entrypoint actions/index = js/actions/index-02968e3b6db4ae6ef256.js js/actions/index-02968e3b6db4ae6ef256.js.map
+Entrypoint actions/remove = js/actions/remove-08ee6aeed7937aed1c66.js js/actions/remove-08ee6aeed7937aed1c66.js.map
+Entrypoint api/delete = js/api/delete-cb3fb8ad22690b3ea361.js js/api/delete-cb3fb8ad22690b3ea361.js.map
+Entrypoint api/get = js/api/get-6702591b3f087a7ed488.js js/api/get-6702591b3f087a7ed488.js.map
+Entrypoint api/index = js/api/index-5af6879fc440375830ea.js js/api/index-5af6879fc440375830ea.js.map
+Entrypoint api/post = js/api/post-e4bff806731a347084c8.js js/api/post-e4bff806731a347084c8.js.map
+Entrypoint application = js/application-78130a8a56d04e13865e.js js/application-78130a8a56d04e13865e.js.map
+Entrypoint components/App = js/components/App-10f5adab61de5f9a8e1a.js js/components/App-10f5adab61de5f9a8e1a.js.map
+Entrypoint components/Book = js/components/Book-ec8881ec7bc4e7cfb825.js js/components/Book-ec8881ec7bc4e7cfb825.js.map
+Entrypoint components/BooksForm = js/components/BooksForm-97c7593839096b1fb395.js js/components/BooksForm-97c7593839096b1fb395.js.map
+Entrypoint components/BooksList = js/components/BooksList-0b3929697bb25a5cc1dd.js js/components/BooksList-0b3929697bb25a5cc1dd.js.map
+Entrypoint components/CategoryFilter = js/components/CategoryFilter-af6299de2ce5f8dfa2b8.js js/components/CategoryFilter-af6299de2ce5f8dfa2b8.js.map
+Entrypoint constants = js/constants-03988ca7109fbda93bcc.js js/constants-03988ca7109fbda93bcc.js.map
+Entrypoint index = js/index-b8a7c0ef437dec992b98.js js/index-b8a7c0ef437dec992b98.js.map
+Entrypoint reducers/books = js/reducers/books-cb75066420e34775ab4b.js js/reducers/books-cb75066420e34775ab4b.js.map
+Entrypoint reducers/category = js/reducers/category-43f5cf9d3734f33414b2.js js/reducers/category-43f5cf9d3734f33414b2.js.map
+Entrypoint reducers/index = js/reducers/index-5ee8e28d7ab54cb8a6dd.js js/reducers/index-5ee8e28d7ab54cb8a6dd.js.map
+[./app/javascript/packs/actions/changeCategory.js] 206 bytes {actions/changeCategory} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/create.js] 162 bytes {actions/create} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/createWithAPI.js] 1.48 KiB {actions/createWithAPI} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/getBooks.js] 1.58 KiB {actions/getBooks} {actions/createWithAPI} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/index.js] 263 bytes {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/remove.js] 162 bytes {actions/remove} {actions/index} {components/App} {components/BooksForm} {components/BooksList} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/delete.js] 0 bytes {api/delete} [built]
+[./app/javascript/packs/api/get.js] 173 bytes {api/get} {actions/createWithAPI} {actions/getBooks} {actions/index} {api/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/index.js] 81 bytes {api/index} {actions/createWithAPI} {actions/getBooks} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/post.js] 234 bytes {api/post} {actions/createWithAPI} {actions/getBooks} {actions/index} {api/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/constants.js] 216 bytes {constants} {actions/changeCategory} {actions/create} {actions/createWithAPI} {actions/getBooks} {actions/index} {actions/remove} {api/get} {api/index} {api/post} {components/App} {components/BooksForm} {components/BooksList} {components/CategoryFilter} {index} {reducers/books} {reducers/category} {reducers/index} [built]
+[./app/javascript/packs/index.js] 1.49 KiB {index} [built]
+[./app/javascript/packs/reducers/books.js] 1.73 KiB {reducers/books} {index} {reducers/index} [built]
+[./app/javascript/packs/reducers/category.js] 384 bytes {reducers/category} {index} {reducers/index} [built]
+    + 61 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2374ms (Views: 2373.2ms | ActiveRecord: 0.0ms | Allocations: 7470)
+
+
+Started GET "/" for ::1 at 2020-09-11 16:50:54 +0300
+Processing by PagesController#index as */*
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 6118)
+
+
+Started GET "/" for ::1 at 2020-09-11 16:51:27 +0300
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/kubilay/Documents/Microverse Projects/5-react/bookstore-hybrid/bookstore/public/packs
+[Webpacker] Hash: c9b6eac335c02aafb1e4
+Version: webpack 4.44.1
+Time: 1403ms
+Built at: 09/11/2020 4:51:29 PM
+                                                   Asset      Size                     Chunks                         Chunk Names
+       js/actions/changeCategory-3365b371ae05d5a895af.js  5.63 KiB     actions/changeCategory  [emitted] [immutable]  actions/changeCategory
+   js/actions/changeCategory-3365b371ae05d5a895af.js.map  4.18 KiB     actions/changeCategory  [emitted] [dev]        actions/changeCategory
+               js/actions/create-7f7c34b566fa234d6ad0.js  5.55 KiB             actions/create  [emitted] [immutable]  actions/create
+           js/actions/create-7f7c34b566fa234d6ad0.js.map  4.12 KiB             actions/create  [emitted] [dev]        actions/create
+        js/actions/createWithAPI-54dd52a9456032bee8ba.js  37.3 KiB      actions/createWithAPI  [emitted] [immutable]  actions/createWithAPI
+    js/actions/createWithAPI-54dd52a9456032bee8ba.js.map  34.4 KiB      actions/createWithAPI  [emitted] [dev]        actions/createWithAPI
+             js/actions/getBooks-105e7582437198b4741c.js  34.7 KiB           actions/getBooks  [emitted] [immutable]  actions/getBooks
+         js/actions/getBooks-105e7582437198b4741c.js.map    34 KiB           actions/getBooks  [emitted] [dev]        actions/getBooks
+                js/actions/index-2a49b0b6ceb4029fcf09.js  41.5 KiB              actions/index  [emitted] [immutable]  actions/index
+            js/actions/index-2a49b0b6ceb4029fcf09.js.map  35.7 KiB              actions/index  [emitted] [dev]        actions/index
+               js/actions/remove-08ee6aeed7937aed1c66.js  5.55 KiB             actions/remove  [emitted] [immutable]  actions/remove
+           js/actions/remove-08ee6aeed7937aed1c66.js.map  4.12 KiB             actions/remove  [emitted] [dev]        actions/remove
+                   js/api/delete-cb3fb8ad22690b3ea361.js  3.89 KiB                 api/delete  [emitted] [immutable]  api/delete
+               js/api/delete-cb3fb8ad22690b3ea361.js.map  3.52 KiB                 api/delete  [emitted] [dev]        api/delete
+                      js/api/get-0922cca253703c4abe4c.js  5.49 KiB                    api/get  [emitted] [immutable]  api/get
+                  js/api/get-0922cca253703c4abe4c.js.map  4.11 KiB                    api/get  [emitted] [dev]        api/get
+                    js/api/index-bcde77022e921086685a.js  7.18 KiB                  api/index  [emitted] [immutable]  api/index
+                js/api/index-bcde77022e921086685a.js.map  4.68 KiB                  api/index  [emitted] [dev]        api/index
+                     js/api/post-e4bff806731a347084c8.js  5.59 KiB                   api/post  [emitted] [immutable]  api/post
+                 js/api/post-e4bff806731a347084c8.js.map  4.24 KiB                   api/post  [emitted] [dev]        api/post
+                  js/application-78130a8a56d04e13865e.js   124 KiB                application  [emitted] [immutable]  application
+              js/application-78130a8a56d04e13865e.js.map   139 KiB                application  [emitted] [dev]        application
+               js/components/App-760e8080b01fa4aa51d6.js  1.21 MiB             components/App  [emitted] [immutable]  components/App
+           js/components/App-760e8080b01fa4aa51d6.js.map  1.34 MiB             components/App  [emitted] [dev]        components/App
+              js/components/Book-ec8881ec7bc4e7cfb825.js   112 KiB            components/Book  [emitted] [immutable]  components/Book
+          js/components/Book-ec8881ec7bc4e7cfb825.js.map   125 KiB            components/Book  [emitted] [dev]        components/Book
+         js/components/BooksForm-a2d4facb3143f23aa635.js   1.2 MiB       components/BooksForm  [emitted] [immutable]  components/BooksForm
+     js/components/BooksForm-a2d4facb3143f23aa635.js.map  1.34 MiB       components/BooksForm  [emitted] [dev]        components/BooksForm
+         js/components/BooksList-0b3929697bb25a5cc1dd.js  1.17 MiB       components/BooksList  [emitted] [immutable]  components/BooksList
+     js/components/BooksList-0b3929697bb25a5cc1dd.js.map  1.31 MiB       components/BooksList  [emitted] [dev]        components/BooksList
+    js/components/CategoryFilter-64b3eaf8e7db265a39d3.js   1.2 MiB  components/CategoryFilter  [emitted] [immutable]  components/CategoryFilter
+js/components/CategoryFilter-64b3eaf8e7db265a39d3.js.map  1.34 MiB  components/CategoryFilter  [emitted] [dev]        components/CategoryFilter
+                    js/constants-03988ca7109fbda93bcc.js  4.82 KiB                  constants  [emitted] [immutable]  constants
+                js/constants-03988ca7109fbda93bcc.js.map  3.85 KiB                  constants  [emitted] [dev]        constants
+                        js/index-c93e582236979998b343.js  1.22 MiB                      index  [emitted] [immutable]  index
+                    js/index-c93e582236979998b343.js.map  1.35 MiB                      index  [emitted] [dev]        index
+               js/reducers/books-cb75066420e34775ab4b.js  7.18 KiB             reducers/books  [emitted] [immutable]  reducers/books
+           js/reducers/books-cb75066420e34775ab4b.js.map  4.49 KiB             reducers/books  [emitted] [dev]        reducers/books
+            js/reducers/category-43f5cf9d3734f33414b2.js  5.78 KiB          reducers/category  [emitted] [immutable]  reducers/category
+        js/reducers/category-43f5cf9d3734f33414b2.js.map  4.27 KiB          reducers/category  [emitted] [dev]        reducers/category
+               js/reducers/index-5ee8e28d7ab54cb8a6dd.js  38.5 KiB             reducers/index  [emitted] [immutable]  reducers/index
+           js/reducers/index-5ee8e28d7ab54cb8a6dd.js.map  36.3 KiB             reducers/index  [emitted] [dev]        reducers/index
+                                           manifest.json  7.43 KiB                             [emitted]              
+Entrypoint actions/changeCategory = js/actions/changeCategory-3365b371ae05d5a895af.js js/actions/changeCategory-3365b371ae05d5a895af.js.map
+Entrypoint actions/create = js/actions/create-7f7c34b566fa234d6ad0.js js/actions/create-7f7c34b566fa234d6ad0.js.map
+Entrypoint actions/createWithAPI = js/actions/createWithAPI-54dd52a9456032bee8ba.js js/actions/createWithAPI-54dd52a9456032bee8ba.js.map
+Entrypoint actions/getBooks = js/actions/getBooks-105e7582437198b4741c.js js/actions/getBooks-105e7582437198b4741c.js.map
+Entrypoint actions/index = js/actions/index-2a49b0b6ceb4029fcf09.js js/actions/index-2a49b0b6ceb4029fcf09.js.map
+Entrypoint actions/remove = js/actions/remove-08ee6aeed7937aed1c66.js js/actions/remove-08ee6aeed7937aed1c66.js.map
+Entrypoint api/delete = js/api/delete-cb3fb8ad22690b3ea361.js js/api/delete-cb3fb8ad22690b3ea361.js.map
+Entrypoint api/get = js/api/get-0922cca253703c4abe4c.js js/api/get-0922cca253703c4abe4c.js.map
+Entrypoint api/index = js/api/index-bcde77022e921086685a.js js/api/index-bcde77022e921086685a.js.map
+Entrypoint api/post = js/api/post-e4bff806731a347084c8.js js/api/post-e4bff806731a347084c8.js.map
+Entrypoint application = js/application-78130a8a56d04e13865e.js js/application-78130a8a56d04e13865e.js.map
+Entrypoint components/App = js/components/App-760e8080b01fa4aa51d6.js js/components/App-760e8080b01fa4aa51d6.js.map
+Entrypoint components/Book = js/components/Book-ec8881ec7bc4e7cfb825.js js/components/Book-ec8881ec7bc4e7cfb825.js.map
+Entrypoint components/BooksForm = js/components/BooksForm-a2d4facb3143f23aa635.js js/components/BooksForm-a2d4facb3143f23aa635.js.map
+Entrypoint components/BooksList = js/components/BooksList-0b3929697bb25a5cc1dd.js js/components/BooksList-0b3929697bb25a5cc1dd.js.map
+Entrypoint components/CategoryFilter = js/components/CategoryFilter-64b3eaf8e7db265a39d3.js js/components/CategoryFilter-64b3eaf8e7db265a39d3.js.map
+Entrypoint constants = js/constants-03988ca7109fbda93bcc.js js/constants-03988ca7109fbda93bcc.js.map
+Entrypoint index = js/index-c93e582236979998b343.js js/index-c93e582236979998b343.js.map
+Entrypoint reducers/books = js/reducers/books-cb75066420e34775ab4b.js js/reducers/books-cb75066420e34775ab4b.js.map
+Entrypoint reducers/category = js/reducers/category-43f5cf9d3734f33414b2.js js/reducers/category-43f5cf9d3734f33414b2.js.map
+Entrypoint reducers/index = js/reducers/index-5ee8e28d7ab54cb8a6dd.js js/reducers/index-5ee8e28d7ab54cb8a6dd.js.map
+[./app/javascript/packs/actions/changeCategory.js] 206 bytes {actions/changeCategory} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/create.js] 162 bytes {actions/create} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/createWithAPI.js] 1.48 KiB {actions/createWithAPI} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/getBooks.js] 1.58 KiB {actions/getBooks} {actions/createWithAPI} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/index.js] 263 bytes {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/remove.js] 162 bytes {actions/remove} {actions/index} {components/App} {components/BooksForm} {components/BooksList} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/delete.js] 0 bytes {api/delete} [built]
+[./app/javascript/packs/api/get.js] 178 bytes {api/get} {actions/createWithAPI} {actions/getBooks} {actions/index} {api/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/index.js] 81 bytes {api/index} {actions/createWithAPI} {actions/getBooks} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/post.js] 234 bytes {api/post} {actions/createWithAPI} {actions/getBooks} {actions/index} {api/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/constants.js] 216 bytes {constants} {actions/changeCategory} {actions/create} {actions/createWithAPI} {actions/getBooks} {actions/index} {actions/remove} {api/get} {api/index} {api/post} {components/App} {components/BooksForm} {components/BooksList} {components/CategoryFilter} {index} {reducers/books} {reducers/category} {reducers/index} [built]
+[./app/javascript/packs/index.js] 1.49 KiB {index} [built]
+[./app/javascript/packs/reducers/books.js] 1.73 KiB {reducers/books} {index} {reducers/index} [built]
+[./app/javascript/packs/reducers/category.js] 384 bytes {reducers/category} {index} {reducers/index} [built]
+    + 61 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2389ms (Views: 2386.1ms | ActiveRecord: 0.0ms | Allocations: 7484)
+
+
+Started GET "/books" for ::1 at 2020-09-11 16:51:30 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.5ms | Allocations: 111)
+  Rendered books/_book.json.jbuilder (Duration: 0.6ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 5.0ms | Allocations: 1775)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.2ms | Allocations: 2267)
+
+
+Started POST "/books" for ::1 at 2020-09-11 16:52:11 +0300
+Processing by BooksController#create as */*
+Can't verify CSRF token authenticity.
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 641)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:37:in `book_params'
+app/controllers/books_controller.rb:14:in `create'
+Started GET "/books" for ::1 at 2020-09-11 16:52:11 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 111)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 1.9ms | Allocations: 1756)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 2246)
+
+
+Started POST "/books" for ::1 at 2020-09-11 16:55:01 +0300
+Processing by BooksController#create as */*
+Can't verify CSRF token authenticity.
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 629)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:37:in `book_params'
+app/controllers/books_controller.rb:14:in `create'
+Started GET "/books" for ::1 at 2020-09-11 16:55:01 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.4ms | Allocations: 111)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.3ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 3.6ms | Allocations: 1756)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.1ms | Allocations: 2234)
+
+
+Started POST "/books" for ::1 at 2020-09-11 16:55:41 +0300
+Processing by BooksController#create as */*
+Can't verify CSRF token authenticity.
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 631)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:37:in `book_params'
+app/controllers/books_controller.rb:14:in `create'
+Started GET "/books" for ::1 at 2020-09-11 16:55:41 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 111)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 1.9ms | Allocations: 1756)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 2237)
+
+
+Started POST "/books" for ::1 at 2020-09-11 16:55:47 +0300
+Processing by BooksController#create as */*
+Can't verify CSRF token authenticity.
+Completed 400 Bad Request in 3ms (ActiveRecord: 0.0ms | Allocations: 633)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:37:in `book_params'
+app/controllers/books_controller.rb:14:in `create'
+Started GET "/books" for ::1 at 2020-09-11 16:55:48 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.3ms | Allocations: 111)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 3.1ms | Allocations: 1756)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 2238)
+
+
+Started POST "/books" for ::1 at 2020-09-11 16:56:25 +0300
+Processing by BooksController#create as */*
+Can't verify CSRF token authenticity.
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 635)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:37:in `book_params'
+app/controllers/books_controller.rb:14:in `create'
+Started GET "/books" for ::1 at 2020-09-11 16:56:26 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 111)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 2.1ms | Allocations: 1756)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms | Allocations: 2240)
+
+
+Started POST "/books" for ::1 at 2020-09-11 16:56:41 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#create as */*
+Can't verify CSRF token authenticity.
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms | Allocations: 1032)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:37:in `book_params'
+app/controllers/books_controller.rb:14:in `create'
+Started GET "/books" for ::1 at 2020-09-11 16:56:41 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 1.2ms | Allocations: 200)
+  Rendered books/_book.json.jbuilder (Duration: 0.3ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.3ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 9.7ms | Allocations: 5177)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.5ms | Allocations: 7138)
+
+
+Started GET "/" for ::1 at 2020-09-11 16:56:42 +0300
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 67)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/kubilay/Documents/Microverse Projects/5-react/bookstore-hybrid/bookstore/public/packs
+[Webpacker] Hash: 0ba5803b0eb87f07d3ec
+Version: webpack 4.44.1
+Time: 1432ms
+Built at: 09/11/2020 4:56:44 PM
+                                                   Asset      Size                     Chunks                         Chunk Names
+       js/actions/changeCategory-3365b371ae05d5a895af.js  5.63 KiB     actions/changeCategory  [emitted] [immutable]  actions/changeCategory
+   js/actions/changeCategory-3365b371ae05d5a895af.js.map  4.18 KiB     actions/changeCategory  [emitted] [dev]        actions/changeCategory
+               js/actions/create-7f7c34b566fa234d6ad0.js  5.55 KiB             actions/create  [emitted] [immutable]  actions/create
+           js/actions/create-7f7c34b566fa234d6ad0.js.map  4.12 KiB             actions/create  [emitted] [dev]        actions/create
+        js/actions/createWithAPI-8d0d77e2e85700ec6128.js  37.3 KiB      actions/createWithAPI  [emitted] [immutable]  actions/createWithAPI
+    js/actions/createWithAPI-8d0d77e2e85700ec6128.js.map  34.5 KiB      actions/createWithAPI  [emitted] [dev]        actions/createWithAPI
+             js/actions/getBooks-ad13d624bb2801e81608.js  34.7 KiB           actions/getBooks  [emitted] [immutable]  actions/getBooks
+         js/actions/getBooks-ad13d624bb2801e81608.js.map    34 KiB           actions/getBooks  [emitted] [dev]        actions/getBooks
+                js/actions/index-53e860bd6e6ee7bff633.js  41.6 KiB              actions/index  [emitted] [immutable]  actions/index
+            js/actions/index-53e860bd6e6ee7bff633.js.map  35.7 KiB              actions/index  [emitted] [dev]        actions/index
+               js/actions/remove-08ee6aeed7937aed1c66.js  5.55 KiB             actions/remove  [emitted] [immutable]  actions/remove
+           js/actions/remove-08ee6aeed7937aed1c66.js.map  4.12 KiB             actions/remove  [emitted] [dev]        actions/remove
+                   js/api/delete-cb3fb8ad22690b3ea361.js  3.89 KiB                 api/delete  [emitted] [immutable]  api/delete
+               js/api/delete-cb3fb8ad22690b3ea361.js.map  3.52 KiB                 api/delete  [emitted] [dev]        api/delete
+                      js/api/get-0922cca253703c4abe4c.js  5.49 KiB                    api/get  [emitted] [immutable]  api/get
+                  js/api/get-0922cca253703c4abe4c.js.map  4.11 KiB                    api/get  [emitted] [dev]        api/get
+                    js/api/index-f20bca2f8b09d67cf863.js  7.21 KiB                  api/index  [emitted] [immutable]  api/index
+                js/api/index-f20bca2f8b09d67cf863.js.map  4.76 KiB                  api/index  [emitted] [dev]        api/index
+                     js/api/post-48a3f8c8f8712b8400ee.js  5.62 KiB                   api/post  [emitted] [immutable]  api/post
+                 js/api/post-48a3f8c8f8712b8400ee.js.map  4.31 KiB                   api/post  [emitted] [dev]        api/post
+                  js/application-78130a8a56d04e13865e.js   124 KiB                application  [emitted] [immutable]  application
+              js/application-78130a8a56d04e13865e.js.map   139 KiB                application  [emitted] [dev]        application
+               js/components/App-eab97dba77305e073676.js  1.21 MiB             components/App  [emitted] [immutable]  components/App
+           js/components/App-eab97dba77305e073676.js.map  1.34 MiB             components/App  [emitted] [dev]        components/App
+              js/components/Book-ec8881ec7bc4e7cfb825.js   112 KiB            components/Book  [emitted] [immutable]  components/Book
+          js/components/Book-ec8881ec7bc4e7cfb825.js.map   125 KiB            components/Book  [emitted] [dev]        components/Book
+         js/components/BooksForm-fc946b5a305d05bb5921.js   1.2 MiB       components/BooksForm  [emitted] [immutable]  components/BooksForm
+     js/components/BooksForm-fc946b5a305d05bb5921.js.map  1.34 MiB       components/BooksForm  [emitted] [dev]        components/BooksForm
+         js/components/BooksList-0b3929697bb25a5cc1dd.js  1.17 MiB       components/BooksList  [emitted] [immutable]  components/BooksList
+     js/components/BooksList-0b3929697bb25a5cc1dd.js.map  1.31 MiB       components/BooksList  [emitted] [dev]        components/BooksList
+    js/components/CategoryFilter-334988bcf6c3ea8aa149.js   1.2 MiB  components/CategoryFilter  [emitted] [immutable]  components/CategoryFilter
+js/components/CategoryFilter-334988bcf6c3ea8aa149.js.map  1.34 MiB  components/CategoryFilter  [emitted] [dev]        components/CategoryFilter
+                    js/constants-03988ca7109fbda93bcc.js  4.82 KiB                  constants  [emitted] [immutable]  constants
+                js/constants-03988ca7109fbda93bcc.js.map  3.85 KiB                  constants  [emitted] [dev]        constants
+                        js/index-9c5ea6501edbea6acaab.js  1.22 MiB                      index  [emitted] [immutable]  index
+                    js/index-9c5ea6501edbea6acaab.js.map  1.35 MiB                      index  [emitted] [dev]        index
+               js/reducers/books-cb75066420e34775ab4b.js  7.18 KiB             reducers/books  [emitted] [immutable]  reducers/books
+           js/reducers/books-cb75066420e34775ab4b.js.map  4.49 KiB             reducers/books  [emitted] [dev]        reducers/books
+            js/reducers/category-43f5cf9d3734f33414b2.js  5.78 KiB          reducers/category  [emitted] [immutable]  reducers/category
+        js/reducers/category-43f5cf9d3734f33414b2.js.map  4.27 KiB          reducers/category  [emitted] [dev]        reducers/category
+               js/reducers/index-5ee8e28d7ab54cb8a6dd.js  38.5 KiB             reducers/index  [emitted] [immutable]  reducers/index
+           js/reducers/index-5ee8e28d7ab54cb8a6dd.js.map  36.3 KiB             reducers/index  [emitted] [dev]        reducers/index
+                                           manifest.json  7.43 KiB                             [emitted]              
+Entrypoint actions/changeCategory = js/actions/changeCategory-3365b371ae05d5a895af.js js/actions/changeCategory-3365b371ae05d5a895af.js.map
+Entrypoint actions/create = js/actions/create-7f7c34b566fa234d6ad0.js js/actions/create-7f7c34b566fa234d6ad0.js.map
+Entrypoint actions/createWithAPI = js/actions/createWithAPI-8d0d77e2e85700ec6128.js js/actions/createWithAPI-8d0d77e2e85700ec6128.js.map
+Entrypoint actions/getBooks = js/actions/getBooks-ad13d624bb2801e81608.js js/actions/getBooks-ad13d624bb2801e81608.js.map
+Entrypoint actions/index = js/actions/index-53e860bd6e6ee7bff633.js js/actions/index-53e860bd6e6ee7bff633.js.map
+Entrypoint actions/remove = js/actions/remove-08ee6aeed7937aed1c66.js js/actions/remove-08ee6aeed7937aed1c66.js.map
+Entrypoint api/delete = js/api/delete-cb3fb8ad22690b3ea361.js js/api/delete-cb3fb8ad22690b3ea361.js.map
+Entrypoint api/get = js/api/get-0922cca253703c4abe4c.js js/api/get-0922cca253703c4abe4c.js.map
+Entrypoint api/index = js/api/index-f20bca2f8b09d67cf863.js js/api/index-f20bca2f8b09d67cf863.js.map
+Entrypoint api/post = js/api/post-48a3f8c8f8712b8400ee.js js/api/post-48a3f8c8f8712b8400ee.js.map
+Entrypoint application = js/application-78130a8a56d04e13865e.js js/application-78130a8a56d04e13865e.js.map
+Entrypoint components/App = js/components/App-eab97dba77305e073676.js js/components/App-eab97dba77305e073676.js.map
+Entrypoint components/Book = js/components/Book-ec8881ec7bc4e7cfb825.js js/components/Book-ec8881ec7bc4e7cfb825.js.map
+Entrypoint components/BooksForm = js/components/BooksForm-fc946b5a305d05bb5921.js js/components/BooksForm-fc946b5a305d05bb5921.js.map
+Entrypoint components/BooksList = js/components/BooksList-0b3929697bb25a5cc1dd.js js/components/BooksList-0b3929697bb25a5cc1dd.js.map
+Entrypoint components/CategoryFilter = js/components/CategoryFilter-334988bcf6c3ea8aa149.js js/components/CategoryFilter-334988bcf6c3ea8aa149.js.map
+Entrypoint constants = js/constants-03988ca7109fbda93bcc.js js/constants-03988ca7109fbda93bcc.js.map
+Entrypoint index = js/index-9c5ea6501edbea6acaab.js js/index-9c5ea6501edbea6acaab.js.map
+Entrypoint reducers/books = js/reducers/books-cb75066420e34775ab4b.js js/reducers/books-cb75066420e34775ab4b.js.map
+Entrypoint reducers/category = js/reducers/category-43f5cf9d3734f33414b2.js js/reducers/category-43f5cf9d3734f33414b2.js.map
+Entrypoint reducers/index = js/reducers/index-5ee8e28d7ab54cb8a6dd.js js/reducers/index-5ee8e28d7ab54cb8a6dd.js.map
+[./app/javascript/packs/actions/changeCategory.js] 206 bytes {actions/changeCategory} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/create.js] 162 bytes {actions/create} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/createWithAPI.js] 1.48 KiB {actions/createWithAPI} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/getBooks.js] 1.58 KiB {actions/getBooks} {actions/createWithAPI} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/index.js] 263 bytes {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/remove.js] 162 bytes {actions/remove} {actions/index} {components/App} {components/BooksForm} {components/BooksList} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/delete.js] 0 bytes {api/delete} [built]
+[./app/javascript/packs/api/get.js] 178 bytes {api/get} {actions/createWithAPI} {actions/getBooks} {actions/index} {api/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/index.js] 81 bytes {api/index} {actions/createWithAPI} {actions/getBooks} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/post.js] 308 bytes {api/post} {actions/createWithAPI} {actions/getBooks} {actions/index} {api/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/constants.js] 216 bytes {constants} {actions/changeCategory} {actions/create} {actions/createWithAPI} {actions/getBooks} {actions/index} {actions/remove} {api/get} {api/index} {api/post} {components/App} {components/BooksForm} {components/BooksList} {components/CategoryFilter} {index} {reducers/books} {reducers/category} {reducers/index} [built]
+[./app/javascript/packs/index.js] 1.49 KiB {index} [built]
+[./app/javascript/packs/reducers/books.js] 1.73 KiB {reducers/books} {index} {reducers/index} [built]
+[./app/javascript/packs/reducers/category.js] 384 bytes {reducers/category} {index} {reducers/index} [built]
+    + 61 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2379ms (Views: 2377.7ms | ActiveRecord: 0.0ms | Allocations: 10690)
+
+
+Started GET "/books" for ::1 at 2020-09-11 16:56:44 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 114)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 2.3ms | Allocations: 1768)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 2257)
+
+
+Started POST "/books" for ::1 at 2020-09-11 16:56:47 +0300
+Processing by BooksController#create as */*
+Can't verify CSRF token authenticity.
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 638)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:37:in `book_params'
+app/controllers/books_controller.rb:14:in `create'
+Started GET "/books" for ::1 at 2020-09-11 16:56:47 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.7ms | Allocations: 111)
+  Rendered books/_book.json.jbuilder (Duration: 0.3ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 4.0ms | Allocations: 1756)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.1ms | Allocations: 2241)
+
+
+Started POST "/books" for ::1 at 2020-09-11 16:57:46 +0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by BooksController#create as */*
+Can't verify CSRF token authenticity.
+Completed 400 Bad Request in 226929ms (ActiveRecord: 0.0ms | Allocations: 82851)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/books_controller.rb:39:in `book_params'
+app/controllers/books_controller.rb:15:in `create'
+Started GET "/" for ::1 at 2020-09-11 17:01:46 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 176)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/kubilay/Documents/Microverse Projects/5-react/bookstore-hybrid/bookstore/public/packs
+[Webpacker] Hash: 1e3a55a4c4e29d99b1ed
+Version: webpack 4.44.1
+Time: 1503ms
+Built at: 09/11/2020 5:01:49 PM
+                                                   Asset      Size                     Chunks                         Chunk Names
+       js/actions/changeCategory-3365b371ae05d5a895af.js  5.63 KiB     actions/changeCategory  [emitted] [immutable]  actions/changeCategory
+   js/actions/changeCategory-3365b371ae05d5a895af.js.map  4.18 KiB     actions/changeCategory  [emitted] [dev]        actions/changeCategory
+               js/actions/create-7f7c34b566fa234d6ad0.js  5.55 KiB             actions/create  [emitted] [immutable]  actions/create
+           js/actions/create-7f7c34b566fa234d6ad0.js.map  4.12 KiB             actions/create  [emitted] [dev]        actions/create
+        js/actions/createWithAPI-19d3b4d4630bbf577786.js  37.4 KiB      actions/createWithAPI  [emitted] [immutable]  actions/createWithAPI
+    js/actions/createWithAPI-19d3b4d4630bbf577786.js.map  34.6 KiB      actions/createWithAPI  [emitted] [dev]        actions/createWithAPI
+             js/actions/getBooks-dd051df107a595b354f7.js  34.8 KiB           actions/getBooks  [emitted] [immutable]  actions/getBooks
+         js/actions/getBooks-dd051df107a595b354f7.js.map  34.1 KiB           actions/getBooks  [emitted] [dev]        actions/getBooks
+                js/actions/index-e99d4d68b2239c51cbbc.js  41.6 KiB              actions/index  [emitted] [immutable]  actions/index
+            js/actions/index-e99d4d68b2239c51cbbc.js.map  35.8 KiB              actions/index  [emitted] [dev]        actions/index
+               js/actions/remove-08ee6aeed7937aed1c66.js  5.55 KiB             actions/remove  [emitted] [immutable]  actions/remove
+           js/actions/remove-08ee6aeed7937aed1c66.js.map  4.12 KiB             actions/remove  [emitted] [dev]        actions/remove
+                   js/api/delete-cb3fb8ad22690b3ea361.js  3.89 KiB                 api/delete  [emitted] [immutable]  api/delete
+               js/api/delete-cb3fb8ad22690b3ea361.js.map  3.52 KiB                 api/delete  [emitted] [dev]        api/delete
+                      js/api/get-0922cca253703c4abe4c.js  5.49 KiB                    api/get  [emitted] [immutable]  api/get
+                  js/api/get-0922cca253703c4abe4c.js.map  4.11 KiB                    api/get  [emitted] [dev]        api/get
+                    js/api/index-ec7e0acc4c85c8e5f4ae.js  7.27 KiB                  api/index  [emitted] [immutable]  api/index
+                js/api/index-ec7e0acc4c85c8e5f4ae.js.map  4.85 KiB                  api/index  [emitted] [dev]        api/index
+                     js/api/post-25fae919246af32ef072.js  5.68 KiB                   api/post  [emitted] [immutable]  api/post
+                 js/api/post-25fae919246af32ef072.js.map   4.4 KiB                   api/post  [emitted] [dev]        api/post
+                  js/application-78130a8a56d04e13865e.js   124 KiB                application  [emitted] [immutable]  application
+              js/application-78130a8a56d04e13865e.js.map   139 KiB                application  [emitted] [dev]        application
+               js/components/App-20ec9f5543edf5c289ed.js  1.21 MiB             components/App  [emitted] [immutable]  components/App
+           js/components/App-20ec9f5543edf5c289ed.js.map  1.34 MiB             components/App  [emitted] [dev]        components/App
+              js/components/Book-ec8881ec7bc4e7cfb825.js   112 KiB            components/Book  [emitted] [immutable]  components/Book
+          js/components/Book-ec8881ec7bc4e7cfb825.js.map   125 KiB            components/Book  [emitted] [dev]        components/Book
+         js/components/BooksForm-652e3a644a9b98c11840.js   1.2 MiB       components/BooksForm  [emitted] [immutable]  components/BooksForm
+     js/components/BooksForm-652e3a644a9b98c11840.js.map  1.34 MiB       components/BooksForm  [emitted] [dev]        components/BooksForm
+         js/components/BooksList-0b3929697bb25a5cc1dd.js  1.17 MiB       components/BooksList  [emitted] [immutable]  components/BooksList
+     js/components/BooksList-0b3929697bb25a5cc1dd.js.map  1.31 MiB       components/BooksList  [emitted] [dev]        components/BooksList
+    js/components/CategoryFilter-e594a2969ff8ef103147.js   1.2 MiB  components/CategoryFilter  [emitted] [immutable]  components/CategoryFilter
+js/components/CategoryFilter-e594a2969ff8ef103147.js.map  1.34 MiB  components/CategoryFilter  [emitted] [dev]        components/CategoryFilter
+                    js/constants-03988ca7109fbda93bcc.js  4.82 KiB                  constants  [emitted] [immutable]  constants
+                js/constants-03988ca7109fbda93bcc.js.map  3.85 KiB                  constants  [emitted] [dev]        constants
+                        js/index-ddebc4075ab9a51fa282.js  1.22 MiB                      index  [emitted] [immutable]  index
+                    js/index-ddebc4075ab9a51fa282.js.map  1.35 MiB                      index  [emitted] [dev]        index
+               js/reducers/books-cb75066420e34775ab4b.js  7.18 KiB             reducers/books  [emitted] [immutable]  reducers/books
+           js/reducers/books-cb75066420e34775ab4b.js.map  4.49 KiB             reducers/books  [emitted] [dev]        reducers/books
+            js/reducers/category-43f5cf9d3734f33414b2.js  5.78 KiB          reducers/category  [emitted] [immutable]  reducers/category
+        js/reducers/category-43f5cf9d3734f33414b2.js.map  4.27 KiB          reducers/category  [emitted] [dev]        reducers/category
+               js/reducers/index-5ee8e28d7ab54cb8a6dd.js  38.5 KiB             reducers/index  [emitted] [immutable]  reducers/index
+           js/reducers/index-5ee8e28d7ab54cb8a6dd.js.map  36.3 KiB             reducers/index  [emitted] [dev]        reducers/index
+                                           manifest.json  7.43 KiB                             [emitted]              
+Entrypoint actions/changeCategory = js/actions/changeCategory-3365b371ae05d5a895af.js js/actions/changeCategory-3365b371ae05d5a895af.js.map
+Entrypoint actions/create = js/actions/create-7f7c34b566fa234d6ad0.js js/actions/create-7f7c34b566fa234d6ad0.js.map
+Entrypoint actions/createWithAPI = js/actions/createWithAPI-19d3b4d4630bbf577786.js js/actions/createWithAPI-19d3b4d4630bbf577786.js.map
+Entrypoint actions/getBooks = js/actions/getBooks-dd051df107a595b354f7.js js/actions/getBooks-dd051df107a595b354f7.js.map
+Entrypoint actions/index = js/actions/index-e99d4d68b2239c51cbbc.js js/actions/index-e99d4d68b2239c51cbbc.js.map
+Entrypoint actions/remove = js/actions/remove-08ee6aeed7937aed1c66.js js/actions/remove-08ee6aeed7937aed1c66.js.map
+Entrypoint api/delete = js/api/delete-cb3fb8ad22690b3ea361.js js/api/delete-cb3fb8ad22690b3ea361.js.map
+Entrypoint api/get = js/api/get-0922cca253703c4abe4c.js js/api/get-0922cca253703c4abe4c.js.map
+Entrypoint api/index = js/api/index-ec7e0acc4c85c8e5f4ae.js js/api/index-ec7e0acc4c85c8e5f4ae.js.map
+Entrypoint api/post = js/api/post-25fae919246af32ef072.js js/api/post-25fae919246af32ef072.js.map
+Entrypoint application = js/application-78130a8a56d04e13865e.js js/application-78130a8a56d04e13865e.js.map
+Entrypoint components/App = js/components/App-20ec9f5543edf5c289ed.js js/components/App-20ec9f5543edf5c289ed.js.map
+Entrypoint components/Book = js/components/Book-ec8881ec7bc4e7cfb825.js js/components/Book-ec8881ec7bc4e7cfb825.js.map
+Entrypoint components/BooksForm = js/components/BooksForm-652e3a644a9b98c11840.js js/components/BooksForm-652e3a644a9b98c11840.js.map
+Entrypoint components/BooksList = js/components/BooksList-0b3929697bb25a5cc1dd.js js/components/BooksList-0b3929697bb25a5cc1dd.js.map
+Entrypoint components/CategoryFilter = js/components/CategoryFilter-e594a2969ff8ef103147.js js/components/CategoryFilter-e594a2969ff8ef103147.js.map
+Entrypoint constants = js/constants-03988ca7109fbda93bcc.js js/constants-03988ca7109fbda93bcc.js.map
+Entrypoint index = js/index-ddebc4075ab9a51fa282.js js/index-ddebc4075ab9a51fa282.js.map
+Entrypoint reducers/books = js/reducers/books-cb75066420e34775ab4b.js js/reducers/books-cb75066420e34775ab4b.js.map
+Entrypoint reducers/category = js/reducers/category-43f5cf9d3734f33414b2.js js/reducers/category-43f5cf9d3734f33414b2.js.map
+Entrypoint reducers/index = js/reducers/index-5ee8e28d7ab54cb8a6dd.js js/reducers/index-5ee8e28d7ab54cb8a6dd.js.map
+[./app/javascript/packs/actions/changeCategory.js] 206 bytes {actions/changeCategory} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/create.js] 162 bytes {actions/create} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/createWithAPI.js] 1.48 KiB {actions/createWithAPI} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/getBooks.js] 1.58 KiB {actions/getBooks} {actions/createWithAPI} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/index.js] 263 bytes {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/remove.js] 162 bytes {actions/remove} {actions/index} {components/App} {components/BooksForm} {components/BooksList} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/delete.js] 0 bytes {api/delete} [built]
+[./app/javascript/packs/api/get.js] 178 bytes {api/get} {actions/createWithAPI} {actions/getBooks} {actions/index} {api/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/index.js] 81 bytes {api/index} {actions/createWithAPI} {actions/getBooks} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/post.js] 371 bytes {api/post} {actions/createWithAPI} {actions/getBooks} {actions/index} {api/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/constants.js] 216 bytes {constants} {actions/changeCategory} {actions/create} {actions/createWithAPI} {actions/getBooks} {actions/index} {actions/remove} {api/get} {api/index} {api/post} {components/App} {components/BooksForm} {components/BooksList} {components/CategoryFilter} {index} {reducers/books} {reducers/category} {reducers/index} [built]
+[./app/javascript/packs/index.js] 1.49 KiB {index} [built]
+[./app/javascript/packs/reducers/books.js] 1.73 KiB {reducers/books} {index} {reducers/index} [built]
+[./app/javascript/packs/reducers/category.js] 384 bytes {reducers/category} {index} {reducers/index} [built]
+    + 61 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2576ms (Views: 2571.6ms | ActiveRecord: 0.0ms | Allocations: 11494)
+
+
+Started GET "/books" for ::1 at 2020-09-11 17:01:49 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.7ms | Allocations: 202)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.3ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 9.9ms | Allocations: 5172)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.6ms | Allocations: 7216)
+
+
+Started POST "/books" for ::1 at 2020-09-11 17:01:53 +0300
+Processing by BooksController#create as */*
+  Parameters: {"book"=>{"title"=>"asd", "category"=>"Action"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:17:in `create'
+  [1m[36mBook Create (0.8ms)[0m  [1m[32mINSERT INTO "books" ("title", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "asd"], ["category", "Action"], ["created_at", "2020-09-11 14:01:53.365855"], ["updated_at", "2020-09-11 14:01:53.365855"]]
+  ↳ app/controllers/books_controller.rb:17:in `create'
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:17:in `create'
+  Rendering books/show.json.jbuilder
+  Rendered books/_book.json.jbuilder (Duration: 0.5ms | Allocations: 137)
+  Rendered books/show.json.jbuilder (Duration: 1.6ms | Allocations: 498)
+Completed 201 Created in 26ms (Views: 3.5ms | ActiveRecord: 7.3ms | Allocations: 4833)
+
+
+Started GET "/books" for ::1 at 2020-09-11 17:01:53 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.3ms | Allocations: 111)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 3.1ms | Allocations: 2021)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.1ms | Allocations: 2495)
+
+
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2020-09-11 17:02:47 +0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 176)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/kubilay/Documents/Microverse Projects/5-react/bookstore-hybrid/bookstore/public/packs
+[Webpacker] Hash: ef1acdc51678e1548367
+Version: webpack 4.44.1
+Time: 1440ms
+Built at: 09/11/2020 5:02:49 PM
+                                                   Asset      Size                     Chunks                         Chunk Names
+       js/actions/changeCategory-3365b371ae05d5a895af.js  5.63 KiB     actions/changeCategory  [emitted] [immutable]  actions/changeCategory
+   js/actions/changeCategory-3365b371ae05d5a895af.js.map  4.18 KiB     actions/changeCategory  [emitted] [dev]        actions/changeCategory
+               js/actions/create-7f7c34b566fa234d6ad0.js  5.55 KiB             actions/create  [emitted] [immutable]  actions/create
+           js/actions/create-7f7c34b566fa234d6ad0.js.map  4.12 KiB             actions/create  [emitted] [dev]        actions/create
+        js/actions/createWithAPI-98d5e51f0bb047faa299.js  37.3 KiB      actions/createWithAPI  [emitted] [immutable]  actions/createWithAPI
+    js/actions/createWithAPI-98d5e51f0bb047faa299.js.map  34.5 KiB      actions/createWithAPI  [emitted] [dev]        actions/createWithAPI
+             js/actions/getBooks-39642cff5be26f775f9f.js  34.7 KiB           actions/getBooks  [emitted] [immutable]  actions/getBooks
+         js/actions/getBooks-39642cff5be26f775f9f.js.map  34.1 KiB           actions/getBooks  [emitted] [dev]        actions/getBooks
+                js/actions/index-0d89dd62193a609b48e8.js  41.5 KiB              actions/index  [emitted] [immutable]  actions/index
+            js/actions/index-0d89dd62193a609b48e8.js.map  35.8 KiB              actions/index  [emitted] [dev]        actions/index
+               js/actions/remove-08ee6aeed7937aed1c66.js  5.55 KiB             actions/remove  [emitted] [immutable]  actions/remove
+           js/actions/remove-08ee6aeed7937aed1c66.js.map  4.12 KiB             actions/remove  [emitted] [dev]        actions/remove
+                   js/api/delete-cb3fb8ad22690b3ea361.js  3.89 KiB                 api/delete  [emitted] [immutable]  api/delete
+               js/api/delete-cb3fb8ad22690b3ea361.js.map  3.52 KiB                 api/delete  [emitted] [dev]        api/delete
+                      js/api/get-0922cca253703c4abe4c.js  5.49 KiB                    api/get  [emitted] [immutable]  api/get
+                  js/api/get-0922cca253703c4abe4c.js.map  4.11 KiB                    api/get  [emitted] [dev]        api/get
+                    js/api/index-57fdffced4b4f604b918.js   7.2 KiB                  api/index  [emitted] [immutable]  api/index
+                js/api/index-57fdffced4b4f604b918.js.map  4.77 KiB                  api/index  [emitted] [dev]        api/index
+                     js/api/post-1904ee6d63b993ac299f.js  5.61 KiB                   api/post  [emitted] [immutable]  api/post
+                 js/api/post-1904ee6d63b993ac299f.js.map  4.32 KiB                   api/post  [emitted] [dev]        api/post
+                  js/application-78130a8a56d04e13865e.js   124 KiB                application  [emitted] [immutable]  application
+              js/application-78130a8a56d04e13865e.js.map   139 KiB                application  [emitted] [dev]        application
+               js/components/App-b4e770e74b3be7f153d6.js  1.21 MiB             components/App  [emitted] [immutable]  components/App
+           js/components/App-b4e770e74b3be7f153d6.js.map  1.34 MiB             components/App  [emitted] [dev]        components/App
+              js/components/Book-ec8881ec7bc4e7cfb825.js   112 KiB            components/Book  [emitted] [immutable]  components/Book
+          js/components/Book-ec8881ec7bc4e7cfb825.js.map   125 KiB            components/Book  [emitted] [dev]        components/Book
+         js/components/BooksForm-ecf5ef443002cdd20eb4.js   1.2 MiB       components/BooksForm  [emitted] [immutable]  components/BooksForm
+     js/components/BooksForm-ecf5ef443002cdd20eb4.js.map  1.34 MiB       components/BooksForm  [emitted] [dev]        components/BooksForm
+         js/components/BooksList-0b3929697bb25a5cc1dd.js  1.17 MiB       components/BooksList  [emitted] [immutable]  components/BooksList
+     js/components/BooksList-0b3929697bb25a5cc1dd.js.map  1.31 MiB       components/BooksList  [emitted] [dev]        components/BooksList
+    js/components/CategoryFilter-96c7860722ae99665c23.js   1.2 MiB  components/CategoryFilter  [emitted] [immutable]  components/CategoryFilter
+js/components/CategoryFilter-96c7860722ae99665c23.js.map  1.34 MiB  components/CategoryFilter  [emitted] [dev]        components/CategoryFilter
+                    js/constants-03988ca7109fbda93bcc.js  4.82 KiB                  constants  [emitted] [immutable]  constants
+                js/constants-03988ca7109fbda93bcc.js.map  3.85 KiB                  constants  [emitted] [dev]        constants
+                        js/index-b9ef192048c014028af5.js  1.22 MiB                      index  [emitted] [immutable]  index
+                    js/index-b9ef192048c014028af5.js.map  1.35 MiB                      index  [emitted] [dev]        index
+               js/reducers/books-cb75066420e34775ab4b.js  7.18 KiB             reducers/books  [emitted] [immutable]  reducers/books
+           js/reducers/books-cb75066420e34775ab4b.js.map  4.49 KiB             reducers/books  [emitted] [dev]        reducers/books
+            js/reducers/category-43f5cf9d3734f33414b2.js  5.78 KiB          reducers/category  [emitted] [immutable]  reducers/category
+        js/reducers/category-43f5cf9d3734f33414b2.js.map  4.27 KiB          reducers/category  [emitted] [dev]        reducers/category
+               js/reducers/index-5ee8e28d7ab54cb8a6dd.js  38.5 KiB             reducers/index  [emitted] [immutable]  reducers/index
+           js/reducers/index-5ee8e28d7ab54cb8a6dd.js.map  36.3 KiB             reducers/index  [emitted] [dev]        reducers/index
+                                           manifest.json  7.43 KiB                             [emitted]              
+Entrypoint actions/changeCategory = js/actions/changeCategory-3365b371ae05d5a895af.js js/actions/changeCategory-3365b371ae05d5a895af.js.map
+Entrypoint actions/create = js/actions/create-7f7c34b566fa234d6ad0.js js/actions/create-7f7c34b566fa234d6ad0.js.map
+Entrypoint actions/createWithAPI = js/actions/createWithAPI-98d5e51f0bb047faa299.js js/actions/createWithAPI-98d5e51f0bb047faa299.js.map
+Entrypoint actions/getBooks = js/actions/getBooks-39642cff5be26f775f9f.js js/actions/getBooks-39642cff5be26f775f9f.js.map
+Entrypoint actions/index = js/actions/index-0d89dd62193a609b48e8.js js/actions/index-0d89dd62193a609b48e8.js.map
+Entrypoint actions/remove = js/actions/remove-08ee6aeed7937aed1c66.js js/actions/remove-08ee6aeed7937aed1c66.js.map
+Entrypoint api/delete = js/api/delete-cb3fb8ad22690b3ea361.js js/api/delete-cb3fb8ad22690b3ea361.js.map
+Entrypoint api/get = js/api/get-0922cca253703c4abe4c.js js/api/get-0922cca253703c4abe4c.js.map
+Entrypoint api/index = js/api/index-57fdffced4b4f604b918.js js/api/index-57fdffced4b4f604b918.js.map
+Entrypoint api/post = js/api/post-1904ee6d63b993ac299f.js js/api/post-1904ee6d63b993ac299f.js.map
+Entrypoint application = js/application-78130a8a56d04e13865e.js js/application-78130a8a56d04e13865e.js.map
+Entrypoint components/App = js/components/App-b4e770e74b3be7f153d6.js js/components/App-b4e770e74b3be7f153d6.js.map
+Entrypoint components/Book = js/components/Book-ec8881ec7bc4e7cfb825.js js/components/Book-ec8881ec7bc4e7cfb825.js.map
+Entrypoint components/BooksForm = js/components/BooksForm-ecf5ef443002cdd20eb4.js js/components/BooksForm-ecf5ef443002cdd20eb4.js.map
+Entrypoint components/BooksList = js/components/BooksList-0b3929697bb25a5cc1dd.js js/components/BooksList-0b3929697bb25a5cc1dd.js.map
+Entrypoint components/CategoryFilter = js/components/CategoryFilter-96c7860722ae99665c23.js js/components/CategoryFilter-96c7860722ae99665c23.js.map
+Entrypoint constants = js/constants-03988ca7109fbda93bcc.js js/constants-03988ca7109fbda93bcc.js.map
+Entrypoint index = js/index-b9ef192048c014028af5.js js/index-b9ef192048c014028af5.js.map
+Entrypoint reducers/books = js/reducers/books-cb75066420e34775ab4b.js js/reducers/books-cb75066420e34775ab4b.js.map
+Entrypoint reducers/category = js/reducers/category-43f5cf9d3734f33414b2.js js/reducers/category-43f5cf9d3734f33414b2.js.map
+Entrypoint reducers/index = js/reducers/index-5ee8e28d7ab54cb8a6dd.js js/reducers/index-5ee8e28d7ab54cb8a6dd.js.map
+[./app/javascript/packs/actions/changeCategory.js] 206 bytes {actions/changeCategory} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/create.js] 162 bytes {actions/create} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/createWithAPI.js] 1.48 KiB {actions/createWithAPI} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/getBooks.js] 1.58 KiB {actions/getBooks} {actions/createWithAPI} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/index.js] 263 bytes {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/actions/remove.js] 162 bytes {actions/remove} {actions/index} {components/App} {components/BooksForm} {components/BooksList} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/delete.js] 0 bytes {api/delete} [built]
+[./app/javascript/packs/api/get.js] 178 bytes {api/get} {actions/createWithAPI} {actions/getBooks} {actions/index} {api/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/index.js] 81 bytes {api/index} {actions/createWithAPI} {actions/getBooks} {actions/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/api/post.js] 297 bytes {api/post} {actions/createWithAPI} {actions/getBooks} {actions/index} {api/index} {components/App} {components/BooksForm} {components/CategoryFilter} {index} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/constants.js] 216 bytes {constants} {actions/changeCategory} {actions/create} {actions/createWithAPI} {actions/getBooks} {actions/index} {actions/remove} {api/get} {api/index} {api/post} {components/App} {components/BooksForm} {components/BooksList} {components/CategoryFilter} {index} {reducers/books} {reducers/category} {reducers/index} [built]
+[./app/javascript/packs/index.js] 1.49 KiB {index} [built]
+[./app/javascript/packs/reducers/books.js] 1.73 KiB {reducers/books} {index} {reducers/index} [built]
+[./app/javascript/packs/reducers/category.js] 384 bytes {reducers/category} {index} {reducers/index} [built]
+    + 61 hidden modules
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2355ms (Views: 2349.3ms | ActiveRecord: 0.0ms | Allocations: 11492)
+
+
+Started GET "/books" for ::1 at 2020-09-11 17:02:49 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.5ms | Allocations: 202)
+  Rendered books/_book.json.jbuilder (Duration: 0.2ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.1ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 8.0ms | Allocations: 5435)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.7ms | Allocations: 7475)
+
+
+Started POST "/books" for ::1 at 2020-09-11 17:02:53 +0300
+Processing by BooksController#create as */*
+  Parameters: {"title"=>"selam", "category"=>"Action", "id"=>54, "book"=>{"id"=>54, "title"=>"selam", "category"=>"Action"}}
+Can't verify CSRF token authenticity.
+[31mUnpermitted parameter: :id[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/books_controller.rb:17:in `create'
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "selam"], ["category", "Action"], ["created_at", "2020-09-11 14:02:53.764945"], ["updated_at", "2020-09-11 14:02:53.764945"]]
+  ↳ app/controllers/books_controller.rb:17:in `create'
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/books_controller.rb:17:in `create'
+  Rendering books/show.json.jbuilder
+  Rendered books/_book.json.jbuilder (Duration: 1.0ms | Allocations: 137)
+  Rendered books/show.json.jbuilder (Duration: 2.8ms | Allocations: 498)
+Completed 201 Created in 21ms (Views: 5.3ms | ActiveRecord: 4.8ms | Allocations: 4871)
+
+
+Started GET "/books" for ::1 at 2020-09-11 17:02:53 +0300
+Processing by BooksController#index as */*
+  Rendering books/index.json.jbuilder
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.json.jbuilder:1
+  Rendered books/_book.json.jbuilder (Duration: 0.3ms | Allocations: 111)
+  Rendered books/_book.json.jbuilder (Duration: 0.4ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 1.2ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.6ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.4ms | Allocations: 101)
+  Rendered books/_book.json.jbuilder (Duration: 0.9ms | Allocations: 101)
+  Rendered books/index.json.jbuilder (Duration: 8.1ms | Allocations: 2284)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.1ms | Allocations: 2760)
+
+
