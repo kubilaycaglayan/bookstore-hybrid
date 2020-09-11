@@ -28,7 +28,7 @@ const BooksList = props => {
       <tbody>
         {
           books
-            .filter(book => category === book.category)
+            .filter(book => (category === book.category || category === 'All'))
             .map(book => <Book book={book} key={book.id} removeHandler={removeHandler} />)
         }
       </tbody>

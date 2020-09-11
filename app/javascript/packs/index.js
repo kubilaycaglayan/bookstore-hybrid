@@ -18,7 +18,7 @@ const initialState = {
       category: 'Action',
     },
   ],
-  category: 'Action',
+  category: 'All',
 };
 
 const store = createStore(reducer, initialState);
