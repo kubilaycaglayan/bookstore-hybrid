@@ -1,23 +1,45 @@
 {
+  "actions/create.js": "/packs/js/actions/create-4f8eba1cc31ae5388502.js",
+  "actions/create.js.map": "/packs/js/actions/create-4f8eba1cc31ae5388502.js.map",
   "actions/index.js": "/packs/js/actions/index-3d6eed3f4dd02e892985.js",
   "actions/index.js.map": "/packs/js/actions/index-3d6eed3f4dd02e892985.js.map",
+  "actions/remove.js": "/packs/js/actions/remove-f53f679e1d209182aeb0.js",
+  "actions/remove.js.map": "/packs/js/actions/remove-f53f679e1d209182aeb0.js.map",
   "application.js": "/packs/js/application-78130a8a56d04e13865e.js",
   "application.js.map": "/packs/js/application-78130a8a56d04e13865e.js.map",
-  "components/App.js": "/packs/js/components/App-e6de7c8465ecb0c69df2.js",
-  "components/App.js.map": "/packs/js/components/App-e6de7c8465ecb0c69df2.js.map",
-  "components/Book.js": "/packs/js/components/Book-69f8726d1a15dd7cd3d2.js",
-  "components/Book.js.map": "/packs/js/components/Book-69f8726d1a15dd7cd3d2.js.map",
-  "components/BooksForm.js": "/packs/js/components/BooksForm-b578d582c7ea1824d953.js",
-  "components/BooksForm.js.map": "/packs/js/components/BooksForm-b578d582c7ea1824d953.js.map",
-  "components/BooksList.js": "/packs/js/components/BooksList-6258c8a4edbaca7d2b2f.js",
-  "components/BooksList.js.map": "/packs/js/components/BooksList-6258c8a4edbaca7d2b2f.js.map",
+  "components/App.js": "/packs/js/components/App-8e6eb4b229872e32d6db.js",
+  "components/App.js.map": "/packs/js/components/App-8e6eb4b229872e32d6db.js.map",
+  "components/Book.js": "/packs/js/components/Book-7bcff97ac3ebd4202b67.js",
+  "components/Book.js.map": "/packs/js/components/Book-7bcff97ac3ebd4202b67.js.map",
+  "components/BooksForm.js": "/packs/js/components/BooksForm-e897fc68e1aeea3bac60.js",
+  "components/BooksForm.js.map": "/packs/js/components/BooksForm-e897fc68e1aeea3bac60.js.map",
+  "components/BooksList.js": "/packs/js/components/BooksList-359afafc7806de650be9.js",
+  "components/BooksList.js.map": "/packs/js/components/BooksList-359afafc7806de650be9.js.map",
+  "constants.js": "/packs/js/constants-411d88fd4f915331addf.js",
+  "constants.js.map": "/packs/js/constants-411d88fd4f915331addf.js.map",
   "entrypoints": {
+    "actions/create": {
+      "js": [
+        "/packs/js/actions/create-4f8eba1cc31ae5388502.js"
+      ],
+      "js.map": [
+        "/packs/js/actions/create-4f8eba1cc31ae5388502.js.map"
+      ]
+    },
     "actions/index": {
       "js": [
         "/packs/js/actions/index-3d6eed3f4dd02e892985.js"
       ],
       "js.map": [
         "/packs/js/actions/index-3d6eed3f4dd02e892985.js.map"
+      ]
+    },
+    "actions/remove": {
+      "js": [
+        "/packs/js/actions/remove-f53f679e1d209182aeb0.js"
+      ],
+      "js.map": [
+        "/packs/js/actions/remove-f53f679e1d209182aeb0.js.map"
       ]
     },
     "application": {
@@ -30,65 +52,83 @@
     },
     "components/App": {
       "js": [
-        "/packs/js/components/App-e6de7c8465ecb0c69df2.js"
+        "/packs/js/components/App-8e6eb4b229872e32d6db.js"
       ],
       "js.map": [
-        "/packs/js/components/App-e6de7c8465ecb0c69df2.js.map"
+        "/packs/js/components/App-8e6eb4b229872e32d6db.js.map"
       ]
     },
     "components/Book": {
       "js": [
-        "/packs/js/components/Book-69f8726d1a15dd7cd3d2.js"
+        "/packs/js/components/Book-7bcff97ac3ebd4202b67.js"
       ],
       "js.map": [
-        "/packs/js/components/Book-69f8726d1a15dd7cd3d2.js.map"
+        "/packs/js/components/Book-7bcff97ac3ebd4202b67.js.map"
       ]
     },
     "components/BooksForm": {
       "js": [
-        "/packs/js/components/BooksForm-b578d582c7ea1824d953.js"
+        "/packs/js/components/BooksForm-e897fc68e1aeea3bac60.js"
       ],
       "js.map": [
-        "/packs/js/components/BooksForm-b578d582c7ea1824d953.js.map"
+        "/packs/js/components/BooksForm-e897fc68e1aeea3bac60.js.map"
       ]
     },
     "components/BooksList": {
       "js": [
-        "/packs/js/components/BooksList-6258c8a4edbaca7d2b2f.js"
+        "/packs/js/components/BooksList-359afafc7806de650be9.js"
       ],
       "js.map": [
-        "/packs/js/components/BooksList-6258c8a4edbaca7d2b2f.js.map"
+        "/packs/js/components/BooksList-359afafc7806de650be9.js.map"
+      ]
+    },
+    "constants": {
+      "js": [
+        "/packs/js/constants-411d88fd4f915331addf.js"
+      ],
+      "js.map": [
+        "/packs/js/constants-411d88fd4f915331addf.js.map"
       ]
     },
     "index": {
       "js": [
-        "/packs/js/index-e4b20ab2ccbfb94fc0da.js"
+        "/packs/js/index-ade7f15245adc2446a46.js"
       ],
       "js.map": [
-        "/packs/js/index-e4b20ab2ccbfb94fc0da.js.map"
+        "/packs/js/index-ade7f15245adc2446a46.js.map"
       ]
     },
     "reducers/books": {
       "js": [
-        "/packs/js/reducers/books-05162f4c752762f1d56c.js"
+        "/packs/js/reducers/books-733922363809ee2d6748.js"
       ],
       "js.map": [
-        "/packs/js/reducers/books-05162f4c752762f1d56c.js.map"
+        "/packs/js/reducers/books-733922363809ee2d6748.js.map"
+      ]
+    },
+    "reducers/category": {
+      "js": [
+        "/packs/js/reducers/category-087a5843016a5ca09505.js"
+      ],
+      "js.map": [
+        "/packs/js/reducers/category-087a5843016a5ca09505.js.map"
       ]
     },
     "reducers/index": {
       "js": [
-        "/packs/js/reducers/index-a85f2ce2d4c124eb5e83.js"
+        "/packs/js/reducers/index-0ceb0b60336f339ce3bc.js"
       ],
       "js.map": [
-        "/packs/js/reducers/index-a85f2ce2d4c124eb5e83.js.map"
+        "/packs/js/reducers/index-0ceb0b60336f339ce3bc.js.map"
       ]
     }
   },
-  "index.js": "/packs/js/index-e4b20ab2ccbfb94fc0da.js",
-  "index.js.map": "/packs/js/index-e4b20ab2ccbfb94fc0da.js.map",
-  "reducers/books.js": "/packs/js/reducers/books-05162f4c752762f1d56c.js",
-  "reducers/books.js.map": "/packs/js/reducers/books-05162f4c752762f1d56c.js.map",
-  "reducers/index.js": "/packs/js/reducers/index-a85f2ce2d4c124eb5e83.js",
-  "reducers/index.js.map": "/packs/js/reducers/index-a85f2ce2d4c124eb5e83.js.map"
+  "index.js": "/packs/js/index-ade7f15245adc2446a46.js",
+  "index.js.map": "/packs/js/index-ade7f15245adc2446a46.js.map",
+  "reducers/books.js": "/packs/js/reducers/books-733922363809ee2d6748.js",
+  "reducers/books.js.map": "/packs/js/reducers/books-733922363809ee2d6748.js.map",
+  "reducers/category.js": "/packs/js/reducers/category-087a5843016a5ca09505.js",
+  "reducers/category.js.map": "/packs/js/reducers/category-087a5843016a5ca09505.js.map",
+  "reducers/index.js": "/packs/js/reducers/index-0ceb0b60336f339ce3bc.js",
+  "reducers/index.js.map": "/packs/js/reducers/index-0ceb0b60336f339ce3bc.js.map"
 }

@@ -5,11 +5,29 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
 import App from './components/App';
+import reducer from './reducers/index';
+
+const initialState = {
+  books: [
+    {
+      id: 111,
+      title: 'Great',
+      category: 'Action',
+    },
+  ],
+  category: 'Action',
+};
+
+const store = createStore(reducer, initialState);
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <App />,
+    <Provider store={store}>
+      <App />
+    </Provider>,
     document.getElementById('root'),
   );
 });

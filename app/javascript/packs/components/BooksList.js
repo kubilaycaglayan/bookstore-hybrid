@@ -5,36 +5,40 @@ import Book from './Book';
 
 const mapStateToProps = state => ({
   books: state.books,
+  category: state.category,
 });
 
 const BooksList = props => {
-  const { books } = props;
-
+  const { books, category } = props;
   return (
     <table>
-      <tr>
-        <th>BOOK ID</th>
-        <th>TITLE</th>
-        <th>CATEGORY</th>
-      </tr>
-      {books.map(book => {
-        return <Book book={book} key={book.id} />;
-      })}
+      <thead>
+        <tr>
+          <th>BOOK ID</th>
+          <th>TITLE</th>
+          <th>CATEGORY</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          books
+            .filter(book => category === book.category)
+            .map(book => <Book book={book} key={book.id} />)
+        }
+      </tbody>
     </table>
   );
 };
 
 BooksList.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  books: PropTypes.array.isRequired,
+  books: PropTypes.arrayOf(PropTypes.object).isRequired,
+  category: PropTypes.string.isRequired,
 };
 
-connect(
+export default connect(
   mapStateToProps,
   null,
   // mapDispatchToBooksList,
 )(
   BooksList,
 );
-
-export default BooksList;
