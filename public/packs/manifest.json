@@ -3,34 +3,36 @@
   "actions/changeCategory.js.map": "/packs/js/actions/changeCategory-3365b371ae05d5a895af.js.map",
   "actions/create.js": "/packs/js/actions/create-7f7c34b566fa234d6ad0.js",
   "actions/create.js.map": "/packs/js/actions/create-7f7c34b566fa234d6ad0.js.map",
-  "actions/createWithAPI.js": "/packs/js/actions/createWithAPI-98d5e51f0bb047faa299.js",
-  "actions/createWithAPI.js.map": "/packs/js/actions/createWithAPI-98d5e51f0bb047faa299.js.map",
-  "actions/getBooks.js": "/packs/js/actions/getBooks-39642cff5be26f775f9f.js",
-  "actions/getBooks.js.map": "/packs/js/actions/getBooks-39642cff5be26f775f9f.js.map",
-  "actions/index.js": "/packs/js/actions/index-0d89dd62193a609b48e8.js",
-  "actions/index.js.map": "/packs/js/actions/index-0d89dd62193a609b48e8.js.map",
+  "actions/createWithAPI.js": "/packs/js/actions/createWithAPI-763a696ec268b789d326.js",
+  "actions/createWithAPI.js.map": "/packs/js/actions/createWithAPI-763a696ec268b789d326.js.map",
+  "actions/getBooks.js": "/packs/js/actions/getBooks-eb015f20309904242254.js",
+  "actions/getBooks.js.map": "/packs/js/actions/getBooks-eb015f20309904242254.js.map",
+  "actions/index.js": "/packs/js/actions/index-c0c15157565fdd0d9aa4.js",
+  "actions/index.js.map": "/packs/js/actions/index-c0c15157565fdd0d9aa4.js.map",
   "actions/remove.js": "/packs/js/actions/remove-08ee6aeed7937aed1c66.js",
   "actions/remove.js.map": "/packs/js/actions/remove-08ee6aeed7937aed1c66.js.map",
-  "api/delete.js": "/packs/js/api/delete-cb3fb8ad22690b3ea361.js",
-  "api/delete.js.map": "/packs/js/api/delete-cb3fb8ad22690b3ea361.js.map",
-  "api/get.js": "/packs/js/api/get-0922cca253703c4abe4c.js",
-  "api/get.js.map": "/packs/js/api/get-0922cca253703c4abe4c.js.map",
-  "api/index.js": "/packs/js/api/index-57fdffced4b4f604b918.js",
-  "api/index.js.map": "/packs/js/api/index-57fdffced4b4f604b918.js.map",
-  "api/post.js": "/packs/js/api/post-1904ee6d63b993ac299f.js",
-  "api/post.js.map": "/packs/js/api/post-1904ee6d63b993ac299f.js.map",
+  "actions/removeWithAPI.js": "/packs/js/actions/removeWithAPI-92085eb71195de3f886a.js",
+  "actions/removeWithAPI.js.map": "/packs/js/actions/removeWithAPI-92085eb71195de3f886a.js.map",
+  "api/delete.js": "/packs/js/api/delete-ddd14d6d35eb75985369.js",
+  "api/delete.js.map": "/packs/js/api/delete-ddd14d6d35eb75985369.js.map",
+  "api/get.js": "/packs/js/api/get-d7d000354679e178ac27.js",
+  "api/get.js.map": "/packs/js/api/get-d7d000354679e178ac27.js.map",
+  "api/index.js": "/packs/js/api/index-d21bb767ab7982ba9eb2.js",
+  "api/index.js.map": "/packs/js/api/index-d21bb767ab7982ba9eb2.js.map",
+  "api/post.js": "/packs/js/api/post-5de78b1c1482e29f7fc5.js",
+  "api/post.js.map": "/packs/js/api/post-5de78b1c1482e29f7fc5.js.map",
   "application.js": "/packs/js/application-78130a8a56d04e13865e.js",
   "application.js.map": "/packs/js/application-78130a8a56d04e13865e.js.map",
-  "components/App.js": "/packs/js/components/App-b4e770e74b3be7f153d6.js",
-  "components/App.js.map": "/packs/js/components/App-b4e770e74b3be7f153d6.js.map",
+  "components/App.js": "/packs/js/components/App-b2bfeeb3595d1a060e6f.js",
+  "components/App.js.map": "/packs/js/components/App-b2bfeeb3595d1a060e6f.js.map",
   "components/Book.js": "/packs/js/components/Book-ec8881ec7bc4e7cfb825.js",
   "components/Book.js.map": "/packs/js/components/Book-ec8881ec7bc4e7cfb825.js.map",
-  "components/BooksForm.js": "/packs/js/components/BooksForm-ecf5ef443002cdd20eb4.js",
-  "components/BooksForm.js.map": "/packs/js/components/BooksForm-ecf5ef443002cdd20eb4.js.map",
-  "components/BooksList.js": "/packs/js/components/BooksList-0b3929697bb25a5cc1dd.js",
-  "components/BooksList.js.map": "/packs/js/components/BooksList-0b3929697bb25a5cc1dd.js.map",
-  "components/CategoryFilter.js": "/packs/js/components/CategoryFilter-96c7860722ae99665c23.js",
-  "components/CategoryFilter.js.map": "/packs/js/components/CategoryFilter-96c7860722ae99665c23.js.map",
+  "components/BooksForm.js": "/packs/js/components/BooksForm-710e412e6d42ee4e27fa.js",
+  "components/BooksForm.js.map": "/packs/js/components/BooksForm-710e412e6d42ee4e27fa.js.map",
+  "components/BooksList.js": "/packs/js/components/BooksList-ef2d7577db49983a1bd3.js",
+  "components/BooksList.js.map": "/packs/js/components/BooksList-ef2d7577db49983a1bd3.js.map",
+  "components/CategoryFilter.js": "/packs/js/components/CategoryFilter-97d760b874562fb4f4be.js",
+  "components/CategoryFilter.js.map": "/packs/js/components/CategoryFilter-97d760b874562fb4f4be.js.map",
   "constants.js": "/packs/js/constants-03988ca7109fbda93bcc.js",
   "constants.js.map": "/packs/js/constants-03988ca7109fbda93bcc.js.map",
   "entrypoints": {
@@ -52,26 +54,26 @@
     },
     "actions/createWithAPI": {
       "js": [
-        "/packs/js/actions/createWithAPI-98d5e51f0bb047faa299.js"
+        "/packs/js/actions/createWithAPI-763a696ec268b789d326.js"
       ],
       "js.map": [
-        "/packs/js/actions/createWithAPI-98d5e51f0bb047faa299.js.map"
+        "/packs/js/actions/createWithAPI-763a696ec268b789d326.js.map"
       ]
     },
     "actions/getBooks": {
       "js": [
-        "/packs/js/actions/getBooks-39642cff5be26f775f9f.js"
+        "/packs/js/actions/getBooks-eb015f20309904242254.js"
       ],
       "js.map": [
-        "/packs/js/actions/getBooks-39642cff5be26f775f9f.js.map"
+        "/packs/js/actions/getBooks-eb015f20309904242254.js.map"
       ]
     },
     "actions/index": {
       "js": [
-        "/packs/js/actions/index-0d89dd62193a609b48e8.js"
+        "/packs/js/actions/index-c0c15157565fdd0d9aa4.js"
       ],
       "js.map": [
-        "/packs/js/actions/index-0d89dd62193a609b48e8.js.map"
+        "/packs/js/actions/index-c0c15157565fdd0d9aa4.js.map"
       ]
     },
     "actions/remove": {
@@ -82,36 +84,44 @@
         "/packs/js/actions/remove-08ee6aeed7937aed1c66.js.map"
       ]
     },
-    "api/delete": {
+    "actions/removeWithAPI": {
       "js": [
-        "/packs/js/api/delete-cb3fb8ad22690b3ea361.js"
+        "/packs/js/actions/removeWithAPI-92085eb71195de3f886a.js"
       ],
       "js.map": [
-        "/packs/js/api/delete-cb3fb8ad22690b3ea361.js.map"
+        "/packs/js/actions/removeWithAPI-92085eb71195de3f886a.js.map"
+      ]
+    },
+    "api/delete": {
+      "js": [
+        "/packs/js/api/delete-ddd14d6d35eb75985369.js"
+      ],
+      "js.map": [
+        "/packs/js/api/delete-ddd14d6d35eb75985369.js.map"
       ]
     },
     "api/get": {
       "js": [
-        "/packs/js/api/get-0922cca253703c4abe4c.js"
+        "/packs/js/api/get-d7d000354679e178ac27.js"
       ],
       "js.map": [
-        "/packs/js/api/get-0922cca253703c4abe4c.js.map"
+        "/packs/js/api/get-d7d000354679e178ac27.js.map"
       ]
     },
     "api/index": {
       "js": [
-        "/packs/js/api/index-57fdffced4b4f604b918.js"
+        "/packs/js/api/index-d21bb767ab7982ba9eb2.js"
       ],
       "js.map": [
-        "/packs/js/api/index-57fdffced4b4f604b918.js.map"
+        "/packs/js/api/index-d21bb767ab7982ba9eb2.js.map"
       ]
     },
     "api/post": {
       "js": [
-        "/packs/js/api/post-1904ee6d63b993ac299f.js"
+        "/packs/js/api/post-5de78b1c1482e29f7fc5.js"
       ],
       "js.map": [
-        "/packs/js/api/post-1904ee6d63b993ac299f.js.map"
+        "/packs/js/api/post-5de78b1c1482e29f7fc5.js.map"
       ]
     },
     "application": {
@@ -124,10 +134,10 @@
     },
     "components/App": {
       "js": [
-        "/packs/js/components/App-b4e770e74b3be7f153d6.js"
+        "/packs/js/components/App-b2bfeeb3595d1a060e6f.js"
       ],
       "js.map": [
-        "/packs/js/components/App-b4e770e74b3be7f153d6.js.map"
+        "/packs/js/components/App-b2bfeeb3595d1a060e6f.js.map"
       ]
     },
     "components/Book": {
@@ -140,26 +150,26 @@
     },
     "components/BooksForm": {
       "js": [
-        "/packs/js/components/BooksForm-ecf5ef443002cdd20eb4.js"
+        "/packs/js/components/BooksForm-710e412e6d42ee4e27fa.js"
       ],
       "js.map": [
-        "/packs/js/components/BooksForm-ecf5ef443002cdd20eb4.js.map"
+        "/packs/js/components/BooksForm-710e412e6d42ee4e27fa.js.map"
       ]
     },
     "components/BooksList": {
       "js": [
-        "/packs/js/components/BooksList-0b3929697bb25a5cc1dd.js"
+        "/packs/js/components/BooksList-ef2d7577db49983a1bd3.js"
       ],
       "js.map": [
-        "/packs/js/components/BooksList-0b3929697bb25a5cc1dd.js.map"
+        "/packs/js/components/BooksList-ef2d7577db49983a1bd3.js.map"
       ]
     },
     "components/CategoryFilter": {
       "js": [
-        "/packs/js/components/CategoryFilter-96c7860722ae99665c23.js"
+        "/packs/js/components/CategoryFilter-97d760b874562fb4f4be.js"
       ],
       "js.map": [
-        "/packs/js/components/CategoryFilter-96c7860722ae99665c23.js.map"
+        "/packs/js/components/CategoryFilter-97d760b874562fb4f4be.js.map"
       ]
     },
     "constants": {
@@ -172,10 +182,10 @@
     },
     "index": {
       "js": [
-        "/packs/js/index-b9ef192048c014028af5.js"
+        "/packs/js/index-b3a7a09d006db1e9abc8.js"
       ],
       "js.map": [
-        "/packs/js/index-b9ef192048c014028af5.js.map"
+        "/packs/js/index-b3a7a09d006db1e9abc8.js.map"
       ]
     },
     "reducers/books": {
@@ -203,8 +213,8 @@
       ]
     }
   },
-  "index.js": "/packs/js/index-b9ef192048c014028af5.js",
-  "index.js.map": "/packs/js/index-b9ef192048c014028af5.js.map",
+  "index.js": "/packs/js/index-b3a7a09d006db1e9abc8.js",
+  "index.js.map": "/packs/js/index-b3a7a09d006db1e9abc8.js.map",
   "reducers/books.js": "/packs/js/reducers/books-cb75066420e34775ab4b.js",
   "reducers/books.js.map": "/packs/js/reducers/books-cb75066420e34775ab4b.js.map",
   "reducers/category.js": "/packs/js/reducers/category-43f5cf9d3734f33414b2.js",
