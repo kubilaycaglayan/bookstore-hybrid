@@ -29,9 +29,8 @@ const BooksForm = props => {
     const book = {
       title: state.title,
       category: state.category,
-      id: Math.floor(Math.random() * 100 + 1),
     };
-    // fire action
+
     createBook(book);
   };
 
