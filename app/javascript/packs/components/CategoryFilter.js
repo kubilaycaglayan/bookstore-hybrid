@@ -13,18 +13,24 @@ const mapDispatchToProps = dispatch => ({
 });
 
 const Filter = props => {
-  const { books } = props;
+  const { books, changeFilter, category } = props;
   let categories = books.map(book => book.category);
-  categories = ['All', ...new Set(categories)];
+  categories.unshift('All');
+  categories.unshift(category);
+  categories = [...new Set(categories)];
+
+  const handleChange = e => {
+    changeFilter(e.target.value);
+  };
 
   return (
-    <select>
+    <select onChange={handleChange}>
       {
-        categories.map(category => {
-          return (
-            <option key={Math.random()} value={category}>{category}</option>
-          );
-        })
+        categories.map(category => (
+          <option key={Math.random()} value={category}>
+            {category}
+          </option>
+        ))
       }
     </select>
   );
@@ -32,6 +38,8 @@ const Filter = props => {
 
 Filter.propTypes = {
   books: PropTypes.arrayOf(PropTypes.object).isRequired,
+  changeFilter: PropTypes.func.isRequired,
+  category: PropTypes.string.isRequired,
 };
 
 export default connect(
