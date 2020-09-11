@@ -5,10 +5,12 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
+import thunk from 'redux-thunk';
 import App from './components/App';
 import reducer from './reducers/index';
+import { getBooks } from './actions/index';
 
 const initialState = {
   books: [
@@ -31,7 +33,9 @@ const initialState = {
   category: 'All',
 };
 
-const store = createStore(reducer, initialState);
+const store = createStore(reducer, initialState, applyMiddleware(thunk));
+
+store.dispatch(getBooks());
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
