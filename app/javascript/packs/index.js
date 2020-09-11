@@ -17,8 +17,18 @@ const initialState = {
       title: 'Great',
       category: 'Action',
     },
+    {
+      id: 112,
+      title: 'Amazing',
+      category: 'History',
+    },
+    {
+      id: 113,
+      title: 'Amazing',
+      category: 'Horror',
+    },
   ],
-  category: 'Action',
+  category: 'All',
 };
 
 const store = createStore(reducer, initialState);
