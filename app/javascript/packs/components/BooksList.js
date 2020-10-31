@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Book from './Book';
-import remove from '../actions/remove';
+import { removeWithAPI } from '../actions/index';
 
 const mapStateToProps = state => ({
   books: state.books,
@@ -10,7 +10,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  removeHandler: book => dispatch(remove(book)),
+  removeHandler: book => dispatch(removeWithAPI(book)),
 });
 
 const BooksList = props => {

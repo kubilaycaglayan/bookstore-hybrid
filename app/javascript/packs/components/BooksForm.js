@@ -1,10 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import create from '../actions/create';
+import { createWithAPI } from '../actions/index';
 
 const mapDispatchToProps = dispatch => ({
-  createBook: book => dispatch(create(book)),
+  createBook: book => dispatch(createWithAPI(book)),
 });
 
 const BooksForm = props => {
@@ -29,9 +29,8 @@ const BooksForm = props => {
     const book = {
       title: state.title,
       category: state.category,
-      id: Math.floor(Math.random() * 100 + 1),
     };
-    // fire action
+
     createBook(book);
   };
 
